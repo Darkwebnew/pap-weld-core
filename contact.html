@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Pap Weld Core Automation</title>
+    <meta name="description" content="Get in touch with Pap Weld Core Automation Private Limited — Chennai based manufacturer of welding and robotic automation systems.">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="header" class="header">
+    <div class="container header-wrapper">
+        <a href="index.html" class="logo">
+            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation">
+            <span class="logo-text">
+                <span class="name">Pap Weld Core</span>
+                <span class="sub">AUTOMATION PVT. LTD.</span>
+            </span>
+        </a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="dropdown">
+                    <a href="products.html" class="nav-link">Products ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html#h-beam">H-Beam Welding Machine</a></li>
+                        <li><a href="products.html#robotic">Robotic Welding System</a></li>
+                        <li><a href="products.html#cnc">CNC Machines</a></li>
+                        <li><a href="products.html#robotic-cell">Robotic Welding Cell</a></li>
+                        <li><a href="products.html#peb">PEB Beam Welding Automation</a></li>
+                        <li><a href="products.html#drilling">CNC Plate Drilling Machine</a></li>
+                        <li><a href="products.html#beam-line">Beam Welding Line</a></li>
+                    </ul>
+                </li>
+                <li><a href="industries.html" class="nav-link">Industries</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="quality.html" class="nav-link">Quality</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-cta">
+            <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+    <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+        <h1>Get in Touch</h1>
+        <p>Tell us about your beam sizes, throughput target, or automation goals — we'll respond within one business day.</p>
+    </div>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-wrapper">
+
+            <!-- ===== LEFT: CONTACT FORM ===== -->
+            <div class="contact-form-wrapper">
+                <div class="form-header">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill in the details below and our team will get back to you shortly.</p>
+                </div>
+
+                <form id="contact-form" class="contact-form" action="send-mail.php" method="POST" novalidate>
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="field">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" placeholder="Your company name">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+91 12345 67890">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="requirement">Requirement</label>
+                        <select id="requirement" name="requirement">
+                            <option value="">Select your requirement...</option>
+                            <option value="h-beam">H-Beam Welding Machine</option>
+                            <option value="robotic">Robotic Welding System</option>
+                            <option value="cnc">CNC Machines</option>
+                            <option value="peb">PEB Beam Welding Automation</option>
+                            <option value="robotic-cell">Robotic Welding Cell</option>
+                            <option value="drilling">CNC Plate Drilling Machine</option>
+                            <option value="beam-line">Beam Welding Line</option>
+                            <option value="other">Other / Custom Automation</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Beam sizes, target throughput, or project details..." rows="5"></textarea>
+                    </div>
+
+                    <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+
+                    <button type="submit" class="btn btn-primary btn-large btn-block">Send Message</button>
+                </form>
+            </div>
+
+            <!-- ===== RIGHT: CONTACT INFO & MAP ===== -->
+            <div class="contact-info-wrapper">
+                <!-- Contact Info Cards -->
+                <div class="contact-info-list">
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <span class="icon--fabrication" style="color:var(--orange); width:20px; height:20px; display:block;"></span>
+                        </div>
+                        <div>
+                            <h4>Factory Address</h4>
+                            <p>36/2 Gurunanak Nagar, Vellanur Village, Chennai – 600062</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <span class="icon--cnc" style="color:var(--blue); width:20px; height:20px; display:block;"></span>
+                        </div>
+                        <div>
+                            <h4>Registered Office</h4>
+                            <p>213/1 Thiru Vi Ka Street, Gerugambakkam, Kanchipuram, Sriperumbudur, Tamil Nadu – 600122</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <span class="icon--robotic" style="color:var(--teal); width:20px; height:20px; display:block;"></span>
+                        </div>
+                        <div>
+                            <h4>Phone Numbers</h4>
+                            <p><a href="tel:+917358189267">+91 73581 89267</a></p>
+                            <p><a href="tel:+918043859179">+91 80438 59179</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <span class="icon--welding" style="color:var(--amethyst); width:20px; height:20px; display:block;"></span>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:weldcoreautomation@gmail.com">weldcoreautomation@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <span class="icon--cnc" style="color:var(--orange); width:20px; height:20px; display:block;"></span>
+                        </div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Mon–Sat, 9:00 AM – 5:30 PM</p>
+                            <p style="font-size:12px; color:var(--gray);">Closed on Sundays</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Google Maps -->
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4000.9662052058766!2d80.10862837515576!3d13.185735910147198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a527d003151d627%3A0xba05a600f43cda97!2sPAP%20Weld%20core%20Automation%20Private%20Limited!5e1!3m2!1sen!2sin!4v1787415089703!5m2!1sen!2sin"
+                        width="100%"
+                        height="280"
+                        style="border:0; border-radius: 8px;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        title="Pap Weld Core Automation Location Map">
+                    </iframe>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA / RFQ ===== -->
+<section class="rfq-cta">
+    <div class="container">
+        <h2>Ready to Start Your Project?</h2>
+        <p>Contact our team today for a free consultation and quote.</p>
+        <a href="#contact-form" class="btn btn-primary btn-large">Send a Message Now</a>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo">
+                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation">
+                </a>
+                <p>Pap Weld Core Automation Private Limited designs and manufactures H-Beam welding machines, robotic welding systems, and CNC fabrication equipment from Chennai, India.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="quality.html">Quality</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="products.html#h-beam">H-Beam Welding Machine</a></li>
+                    <li><a href="products.html#robotic">Robotic Welding System</a></li>
+                    <li><a href="products.html#cnc">CNC Machines</a></li>
+                    <li><a href="products.html#robotic-cell">Robotic Welding Cell</a></li>
+                    <li><a href="products.html#peb">PEB Beam Welding Automation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p><strong>Factory:</strong> 36/2 Gurunanak Nagar, Vellanur Village, Chennai – 600062</p>
+                <p><strong>Phone:</strong> <a href="tel:+917358189267">+91 73581 89267</a></p>
+                <p><strong>Email:</strong> <a href="mailto:weldcoreautomation@gmail.com">weldcoreautomation@gmail.com</a></p>
+                <p><strong>Hours:</strong> Mon–Sat, 9:00 AM – 5:30 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Pap Weld Core Automation Private Limited. All Rights Reserved.</p>
+            <p>CIN: U25910TN2025PTC180645 · GSTIN: 33AAPCP7917D1Z9</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+<!-- ===== CONTACT FORM SCRIPT ===== -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contact-form');
+    const statusEl = document.getElementById('form-status');
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Basic required-field validation (native "required" attrs
+            // are backed up here since the form uses novalidate)
+            const nameField = this.querySelector('#name');
+            const emailField = this.querySelector('#email');
+            if (!nameField.value.trim() || !emailField.value.trim()) {
+                if (statusEl) {
+                    statusEl.textContent = 'Please fill in your name and email address.';
+                    statusEl.className = 'form-status form-status-error';
+                }
+                return;
+            }
+
+            const btn = this.querySelector('button[type="submit"]');
+            const originalText = btn.textContent;
+            const formData = new FormData(this);
+
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+            if (statusEl) {
+                statusEl.textContent = '';
+                statusEl.className = 'form-status';
+            }
+
+            fetch(this.getAttribute('action'), {
+                method: 'POST',
+                body: formData,
+                headers: { 'X-Requested-With': 'XMLHttpRequest' }
+            })
+                .then(response => response.ok ? response.text() : Promise.reject(response.status))
+                .then(() => {
+                    btn.textContent = 'Message Sent ✓';
+                    btn.style.background = 'var(--teal)';
+                    btn.style.borderColor = 'var(--teal)';
+                    if (statusEl) {
+                        statusEl.textContent = 'Thanks — your message has been sent. We\'ll respond within one business day.';
+                        statusEl.className = 'form-status form-status-success';
+                    }
+                    contactForm.reset();
+                })
+                .catch(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                    btn.style.borderColor = '';
+                    if (statusEl) {
+                        statusEl.textContent = 'Something went wrong sending your message. Please email us directly at weldcoreautomation@gmail.com or call +91 73581 89267.';
+                        statusEl.className = 'form-status form-status-error';
+                    }
+                })
+                .finally(() => {
+                    btn.disabled = false;
+                    setTimeout(() => {
+                        if (btn.textContent === 'Message Sent ✓') {
+                            btn.textContent = originalText;
+                            btn.style.background = '';
+                            btn.style.borderColor = '';
+                        }
+                    }, 3500);
+                });
+        });
+    }
+});
+</script>
+</body>
+</html>
