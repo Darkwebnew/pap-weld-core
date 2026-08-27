@@ -13,30 +13,35 @@
 </head>
 <body>
 
+<!-- ===== BACK TO TOP BUTTON ===== -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
 <!-- ===== HEADER ===== -->
 <header id="header" class="header">
     <div class="container header-wrapper">
         <a href="index.html" class="logo">
-            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation">
+            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation logo">
             <span class="logo-text">
                 <span class="name">Pap Weld Core</span>
                 <span class="sub">AUTOMATION PVT. LTD.</span>
             </span>
         </a>
-        <nav class="nav">
+        <nav class="nav" aria-label="Main navigation">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about.html" class="nav-link">About Us</a></li>
                 <li class="dropdown">
-                    <a href="products.html" class="nav-link">Products ▾</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="products.html#h-beam">H-Beam Welding Machine</a></li>
-                        <li><a href="products.html#robotic">Robotic Welding System</a></li>
-                        <li><a href="products.html#cnc">CNC Machines</a></li>
-                        <li><a href="products.html#robotic-cell">Robotic Welding Cell</a></li>
-                        <li><a href="products.html#peb">PEB Beam Welding Automation</a></li>
-                        <li><a href="products.html#drilling">CNC Plate Drilling Machine</a></li>
-                        <li><a href="products.html#beam-line">Beam Welding Line</a></li>
+                    <a href="products.html" class="nav-link" aria-haspopup="true" aria-expanded="false">Products ▾</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="products.html#h-beam" role="menuitem">H-Beam Welding Machine</a></li>
+                        <li><a href="products.html#robotic" role="menuitem">Robotic Welding System</a></li>
+                        <li><a href="products.html#cnc" role="menuitem">CNC Machines</a></li>
+                        <li><a href="products.html#robotic-cell" role="menuitem">Robotic Welding Cell</a></li>
+                        <li><a href="products.html#peb" role="menuitem">PEB Beam Welding Automation</a></li>
+                        <li><a href="products.html#drilling" role="menuitem">CNC Plate Drilling Machine</a></li>
+                        <li><a href="products.html#beam-line" role="menuitem">Beam Welding Line</a></li>
                     </ul>
                 </li>
                 <li><a href="industries.html" class="nav-link active">Industries</a></li>
@@ -66,14 +71,11 @@
 <!-- ===== INDUSTRIES GRID ===== -->
 <section class="industries" style="padding-bottom:40px;">
     <div class="container">
-
-        <!-- Industry Cards -->
         <div class="industries-grid">
-
-            <!-- ===== Industry 1: Pre-Engineered Buildings ===== -->
-            <div class="industry-card" id="peb">
+            <!-- Industry 1: Pre-Engineered Buildings -->
+            <div class="industry-card" id="peb" data-aos="fade-up" data-aos-delay="0">
                 <div class="industry-icon">
-                    <span class="icon--fabrication" style="color:var(--orange); width:40px; height:40px; display:block;"></span>
+                    <span class="icon--peb" style="color:var(--orange); width:40px; height:40px; display:block;"></span>
                 </div>
                 <div class="industry-tag">PEB</div>
                 <h4>Pre-Engineered Buildings</h4>
@@ -85,10 +87,10 @@
                 <a href="contact.html" class="link-arrow">Discuss Your PEB Project →</a>
             </div>
 
-            <!-- ===== Industry 2: Structural Steel ===== -->
-            <div class="industry-card" id="structural">
+            <!-- Industry 2: Structural Steel -->
+            <div class="industry-card" id="structural" data-aos="fade-up" data-aos-delay="100">
                 <div class="industry-icon">
-                    <span class="icon--welding" style="color:var(--teal); width:40px; height:40px; display:block;"></span>
+                    <span class="icon--structural-steel" style="color:var(--teal); width:40px; height:40px; display:block;"></span>
                 </div>
                 <div class="industry-tag">Structural Steel</div>
                 <h4>Structural Steel</h4>
@@ -100,10 +102,10 @@
                 <a href="contact.html" class="link-arrow">Discuss Your Structural Project →</a>
             </div>
 
-            <!-- ===== Industry 3: Heavy Fabrication ===== -->
-            <div class="industry-card" id="heavy">
+            <!-- Industry 3: Heavy Fabrication -->
+            <div class="industry-card" id="heavy" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-icon">
-                    <span class="icon--cnc" style="color:var(--amethyst); width:40px; height:40px; display:block;"></span>
+                    <span class="icon--heavy-fab-industry" style="color:var(--amethyst); width:40px; height:40px; display:block;"></span>
                 </div>
                 <div class="industry-tag">Heavy Fabrication</div>
                 <h4>Heavy Fabrication</h4>
@@ -115,10 +117,10 @@
                 <a href="contact.html" class="link-arrow">Discuss Your Heavy Fabrication →</a>
             </div>
 
-            <!-- ===== Industry 4: Infrastructure ===== -->
-            <div class="industry-card" id="infrastructure">
+            <!-- Industry 4: Infrastructure -->
+            <div class="industry-card" id="infrastructure" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-icon">
-                    <span class="icon--robotic" style="color:var(--blue); width:40px; height:40px; display:block;"></span>
+                    <span class="icon--infrastructure" style="color:var(--blue); width:40px; height:40px; display:block;"></span>
                 </div>
                 <div class="industry-tag">Infrastructure</div>
                 <h4>Infrastructure</h4>
@@ -130,10 +132,10 @@
                 <a href="contact.html" class="link-arrow">Discuss Your Infrastructure Project →</a>
             </div>
 
-            <!-- ===== Industry 5: Automotive ===== -->
-            <div class="industry-card" id="automotive">
+            <!-- Industry 5: Automotive -->
+            <div class="industry-card" id="automotive" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-icon">
-                    <span class="icon--robotic" style="color:var(--orange); width:40px; height:40px; display:block;"></span>
+                    <span class="icon--automotive" style="color:var(--orange); width:40px; height:40px; display:block;"></span>
                 </div>
                 <div class="industry-tag">Automotive</div>
                 <h4>Automotive</h4>
@@ -145,10 +147,10 @@
                 <a href="contact.html" class="link-arrow">Discuss Your Automotive Project →</a>
             </div>
 
-            <!-- ===== Industry 6: Defence & Aerospace ===== -->
-            <div class="industry-card" id="defence">
+            <!-- Industry 6: Defence & Aerospace -->
+            <div class="industry-card" id="defence" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-icon">
-                    <span class="icon--cnc" style="color:var(--blue); width:40px; height:40px; display:block;"></span>
+                    <span class="icon--defence-aerospace" style="color:var(--blue); width:40px; height:40px; display:block;"></span>
                 </div>
                 <div class="industry-tag">Defence &amp; Aerospace</div>
                 <h4>Defence &amp; Aerospace</h4>
@@ -159,7 +161,6 @@
                 </div>
                 <a href="contact.html" class="link-arrow">Discuss Your Defence Project →</a>
             </div>
-
         </div>
     </div>
 </section>
@@ -174,11 +175,10 @@
         </div>
 
         <div class="products-grid">
-
-            <!-- ===== Case Study 1 ===== -->
-            <div class="case-card">
+            <!-- Case Study 1: PEB -->
+            <div class="case-card" data-aos="fade-up" data-aos-delay="0">
                 <div class="case-image">
-                    <img src="images/projects/project-1.jpg" alt="Automated PEB Line" loading="lazy">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2026/5/610157259/LI/YO/OT/106518927/download-2026-05-22t191322-040-500x500.jpg" alt="Automated PEB Line" loading="lazy">
                 </div>
                 <div class="case-body">
                     <span class="case-tag">PEB</span>
@@ -188,10 +188,10 @@
                 </div>
             </div>
 
-            <!-- ===== Case Study 2 ===== -->
-            <div class="case-card">
+            <!-- Case Study 2: Infrastructure -->
+            <div class="case-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="case-image">
-                    <img src="images/projects/project-2.jpg" alt="Structural Steel Fabrication" loading="lazy">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2026/5/611747977/PE/PZ/OC/106518927/railway-h-beam-fabrication-line-for-bridge-beam-welding-500x500.jpg" alt="Structural Steel Fabrication" loading="lazy">
                 </div>
                 <div class="case-body">
                     <span class="case-tag">Infrastructure</span>
@@ -201,10 +201,10 @@
                 </div>
             </div>
 
-            <!-- ===== Case Study 3 ===== -->
-            <div class="case-card">
+            <!-- Case Study 3: Heavy Fabrication -->
+            <div class="case-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="case-image">
-                    <img src="images/projects/project-3.jpg" alt="Heavy-Duty Fabrication" loading="lazy">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2026/5/611755934/MK/XK/IB/106518927/h-beam-assembly-machine-500x500.jpg" alt="Heavy-Duty Fabrication" loading="lazy">
                 </div>
                 <div class="case-body">
                     <span class="case-tag">Heavy Fabrication</span>
@@ -213,7 +213,6 @@
                     <a href="contact.html" class="link-arrow">Discuss a Similar Project →</a>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -233,9 +232,14 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <a href="index.html" class="logo">
-                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation">
+                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation white logo">
                 </a>
                 <p>Pap Weld Core Automation Private Limited designs and manufactures H-Beam welding machines, robotic welding systems, and CNC fabrication equipment from Chennai, India.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><span class="icon--linkedin" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMjAuNDUgMjAuNDVoLTMuNTV2LTUuNTVjMC0xLjMyLS4wMi0zLjAyLTEuODQtMy4wMi0xLjg0IDAtMi4xMiAxLjQ0LTIuMTIgMi45M3Y1LjY0aC0zLjU1VjloMy40MXYxLjU2aC4wNWMuNDctLjkgMS42Mi0xLjg0IDMuMzYtMS44NCAzLjYgMCA0LjI2IDIuMzcgNC4yNiA1LjQ2djYuMjN6TTUuMzcgNy4zMmMtMS4xNCAwLTIuMDYtLjkyLTIuMDYtMi4wNiAwLTEuMTQuOTItMi4wNiAyLjA2LTIuMDYgMS4xNCAwIDIuMDYuOTIgMi4wNiAyLjA2IDAgMS4xNC0uOTIgMi4wNi0yLjA2IDIuMDZ6bS0xLjc5IDEzLjEzaDMuNTVWOUgzLjU4djExLjQ1eiIvPjwvc3ZnPg==')"></span></a>
+                    <a href="#" aria-label="YouTube"><span class="icon--youtube" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMjEuNTggNy4xOWMtLjIzLS44Ni0uOTEtMS41NC0xLjc3LTEuNzdDMTguMjUgNSAxMiA1IDEyIDVzLTYuMjUgMC03LjgxLjQyYy0uODYuMjMtMS41NC45MS0xLjc3IDEuNzdDMiA4Ljc1IDIgMTIgMiAxMnMwIDMuMjUuNDIgNC44MWMuMjMuODYuOTEgMS41NCAxLjc3IDEuNzdDNS43NSAxOSAxMiAxOSAxMiAxOXM2LjI1IDAgNy44MS0uNDJjLjg2LS4yMyAxLjU0LS45MSAxLjc3LTEuNzdDMjIgMTUuMjUgMjIgMTIgMjIgMTJzMC0zLjI1LS40Mi00Ljgxek0xMCAxNS4wNlY4Ljk0bDUuMjIgMy4wNkwxMCAxNS4wNnoiLz48L3N2Zz4=')"></span></a>
+                    <a href="#" aria-label="Twitter / X"><span class="icon--twitter" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMTguMjQ0IDIuMjVoMy4zMDhsLTcuMjI3IDguMjYgOC41MDIgMTEuMjRoLTYuNjQzbC01LjIxNi02LjgxNy01Ljk1NiA2LjgxN0gyLjE3NWw3LjczLTguODM1TDcuMDI5IDIuMjVoNi44MTVsNC43MTMgNi4xOTF6bS0xLjE2MSAxNy41MmgxLjgzMkw2Ljk5OCAzLjk1N0g1LjA0bDEyLjA0MyAxNS44MTN6Ii8+PC9zdmc+')"></span></a>
+                </div>
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>

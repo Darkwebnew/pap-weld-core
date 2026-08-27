@@ -48,9 +48,24 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // ----- SCROLL ANIMATIONS (Intersection Observer) -----
+    // ----- BACK TO TOP BUTTON -----
+    const backToTop = document.getElementById('backToTop');
+    if (backToTop) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 400) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        backToTop.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    // ----- SCROLL ANIMATIONS (Intersection Observer with AOS-like behaviour) -----
     const animateElements = document.querySelectorAll(
-        '.capability-card, .industry-card, .product-card, .process-step'
+        '.capability-card, .industry-card, .product-card, .process-step, .quality-step-card, .cert-card, .testing-card, .case-card, .project-card, .stat-strip-item, .mv-card, .team-card, .timeline-item'
     );
     
     if ('IntersectionObserver' in window) {
@@ -69,6 +84,12 @@ document.addEventListener('DOMContentLoaded', function() {
             el.style.transition = 'all 0.6s ease';
             observer.observe(el);
         });
+    } else {
+        // Fallback: show all
+        animateElements.forEach(el => {
+            el.style.opacity = '1';
+            el.style.transform = 'translateY(0)';
+        });
     }
 
     // ----- SMOOTH SCROLL FOR ANCHOR LINKS -----
@@ -83,10 +104,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // ----- COUNTER ANIMATION (Trust Badges + Stat Strips) -----
-    // Targets every counter with a data-count attribute (hero trust badges
-    // AND the about/projects stat-strip numbers), reads the target from
-    // data-count (not the placeholder "0" text), and only animates once
-    // the counter actually scrolls into view.
     const counterEls = document.querySelectorAll('[data-count]');
 
     function animateCounter(counter) {
@@ -124,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             counterEls.forEach(counter => counterObserver.observe(counter));
         } else {
-            // Fallback for browsers without IntersectionObserver support
+            // Fallback
             counterEls.forEach(animateCounter);
         }
     }

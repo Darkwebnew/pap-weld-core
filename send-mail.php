@@ -2,13 +2,20 @@
 /**
  * send-mail.php
  * Handles submissions from contact.html's #contact-form.
- * Works on standard GoDaddy shared hosting (PHP mail()).
+ * Works on standard shared hosting (PHP mail()).
+ * Domain placeholders corrected.
  */
 
 // Only accept POST requests
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
     exit('Method Not Allowed');
+}
+
+// Honeypot check (simple spam prevention)
+if (!empty($_POST['honeypot'])) {
+    http_response_code(400);
+    exit('Spam detected.');
 }
 
 // ----- CONFIG -----
@@ -27,7 +34,7 @@ $phone       = clean($_POST['phone'] ?? '');
 $requirement = clean($_POST['requirement'] ?? '');
 $message     = clean($_POST['message'] ?? '');
 
-// Honeypot-style / basic spam guard: reject if key fields are empty
+// Basic validation
 if ($name === '' || $email === '') {
     http_response_code(422);
     exit('Missing required fields.');
@@ -50,9 +57,8 @@ $body .= "Phone: " . ($phone !== '' ? $phone : '—') . "\n";
 $body .= "Requirement: " . ($requirement !== '' ? $requirement : '—') . "\n\n";
 $body .= "Message:\n" . ($message !== '' ? $message : '—') . "\n";
 
-// Use a safe From address on your own domain; Reply-To is the visitor's
-// email so hitting "Reply" in your inbox goes straight back to them.
-$headers  = "From: {$siteName} <no-reply@YOURDOMAIN.com>\r\n";
+// Use a safe From address on your own domain; Reply-To is the visitor's email
+$headers  = "From: {$siteName} <info@papweldcore.com>\r\n";
 $headers .= "Reply-To: {$email}\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
@@ -67,3 +73,4 @@ if ($sent) {
     http_response_code(500);
     echo 'error';
 }
+?>

@@ -3,4 +3,4 @@ Allow: /
 Disallow: /downloads/
 Disallow: /send-mail.php
 
-Sitemap: https://www.YOURDOMAIN.com/sitemap.xml
+Sitemap: https://papweld.com/sitemap.xml

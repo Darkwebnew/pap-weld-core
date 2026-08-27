@@ -13,30 +13,35 @@
 </head>
 <body>
 
+<!-- ===== BACK TO TOP BUTTON ===== -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
 <!-- ===== HEADER ===== -->
 <header id="header" class="header">
     <div class="container header-wrapper">
         <a href="index.html" class="logo">
-            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation">
+            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation logo">
             <span class="logo-text">
                 <span class="name">Pap Weld Core</span>
                 <span class="sub">AUTOMATION PVT. LTD.</span>
             </span>
         </a>
-        <nav class="nav">
+        <nav class="nav" aria-label="Main navigation">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about.html" class="nav-link">About Us</a></li>
                 <li class="dropdown">
-                    <a href="products.html" class="nav-link active">Products ▾</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="products.html#h-beam">H-Beam Welding Machine</a></li>
-                        <li><a href="products.html#robotic">Robotic Welding System</a></li>
-                        <li><a href="products.html#cnc">CNC Machines</a></li>
-                        <li><a href="products.html#robotic-cell">Robotic Welding Cell</a></li>
-                        <li><a href="products.html#peb">PEB Beam Welding Automation</a></li>
-                        <li><a href="products.html#drilling">CNC Plate Drilling Machine</a></li>
-                        <li><a href="products.html#beam-line">Beam Welding Line</a></li>
+                    <a href="products.html" class="nav-link active" aria-haspopup="true" aria-expanded="false">Products ▾</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="products.html#h-beam" role="menuitem">H-Beam Welding Machine</a></li>
+                        <li><a href="products.html#robotic" role="menuitem">Robotic Welding System</a></li>
+                        <li><a href="products.html#cnc" role="menuitem">CNC Machines</a></li>
+                        <li><a href="products.html#robotic-cell" role="menuitem">Robotic Welding Cell</a></li>
+                        <li><a href="products.html#peb" role="menuitem">PEB Beam Welding Automation</a></li>
+                        <li><a href="products.html#drilling" role="menuitem">CNC Plate Drilling Machine</a></li>
+                        <li><a href="products.html#beam-line" role="menuitem">Beam Welding Line</a></li>
                     </ul>
                 </li>
                 <li><a href="industries.html" class="nav-link">Industries</a></li>
@@ -59,7 +64,7 @@
     <div class="container">
         <div class="breadcrumb"><a href="index.html">Home</a> / Products</div>
         <h1>Our Products</h1>
-        <p>Eight systems covering the full beam fabrication line — from raw plate to a finished, welded structural section.</p>
+        <p>All 37 systems covering the full beam fabrication line — from raw plate to a finished, welded structural section.</p>
     </div>
 </section>
 
@@ -77,133 +82,7 @@
 
         <!-- Products Grid -->
         <div class="products-grid" id="productGrid">
-
-            <!-- ===== PRODUCT 1: H-Beam Welding Machine ===== -->
-            <div class="product-card" id="h-beam" data-category="welding">
-                <img src="images/products/h-beam-welding.jpg" alt="H Beam Welding Machine" loading="lazy">
-                <div class="product-badge">Best Seller</div>
-                <h4>H-Beam Welding Machine</h4>
-                <p>High-performance system for vertical and horizontal welding of structural steel beams up to 12m.</p>
-                <div class="product-specs">
-                    <span>SAW Process</span>
-                    <span>Up to 800mm</span>
-                </div>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-
-            <!-- ===== PRODUCT 2: Robotic Welding System ===== -->
-            <div class="product-card" id="robotic" data-category="robotic">
-                <img src="images/products/robotic-system.jpg" alt="Robotic Welding System" loading="lazy">
-                <div class="product-badge">Featured</div>
-                <h4>Robotic Welding System</h4>
-                <p>Automated, multi-axis system for high-speed, repeatable complex welds with Yaskawa integration.</p>
-                <div class="product-specs">
-                    <span>6-Axis Robot</span>
-                    <span>MIG/MAG</span>
-                </div>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-
-            <!-- ===== PRODUCT 3: CNC Machines ===== -->
-            <div class="product-card" id="cnc" data-category="cnc">
-                <img src="images/products/cnc-machine.jpg" alt="CNC Machines" loading="lazy">
-                <div class="product-badge">Precision</div>
-                <h4>CNC Machines</h4>
-                <p>Versatile computer numerical control machining for milling, turning, and drilling operations.</p>
-                <div class="product-specs">
-                    <span>Fanuc Control</span>
-                    <span>±0.01mm</span>
-                </div>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-
-            <!-- ===== PRODUCT 4: Robotic Welding Cell ===== -->
-            <div class="product-card" id="robotic-cell" data-category="robotic">
-                <img src="images/products/robotic-cell.jpg" alt="Robotic Welding Cell" loading="lazy">
-                <div class="product-badge">Turnkey</div>
-                <h4>Robotic Welding Cell</h4>
-                <p>Fully integrated, enclosed production cell for continuous automated welding operations.</p>
-                <div class="product-specs">
-                    <span>Fenced Cell</span>
-                    <span>Fanuc Robot</span>
-                </div>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-
-            <!-- ===== PRODUCT 5: Robotic Welding Automation ===== -->
-            <div class="product-card" id="robotic-automation" data-category="robotic">
-                <img src="images/products/robotic-automation.jpg" alt="Robotic Welding Automation" loading="lazy">
-                <h4>Robotic Welding Automation</h4>
-                <p>Sophisticated industrial control systems for precise robotic process integration and automation.</p>
-                <div class="product-specs">
-                    <span>PLC Control</span>
-                    <span>Real-time Monitoring</span>
-                </div>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-
-            <!-- ===== PRODUCT 6: PEB Beam Welding Automation ===== -->
-            <div class="product-card" id="peb" data-category="welding">
-                <img src="images/products/peb-welding.jpg" alt="PEB Beam Welding Automation" loading="lazy">
-                <div class="product-badge">PEB Specialist</div>
-                <h4>PEB Beam Welding Automation</h4>
-                <p>Automated line for high-efficiency, multi-process welding of heavy PEB structural members.</p>
-                <div class="product-specs">
-                    <span>Tapered Beams</span>
-                    <span>Multi-Process</span>
-                </div>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-
-            <!-- ===== PRODUCT 7: CNC Plate Drilling Machine ===== -->
-            <div class="product-card" id="drilling" data-category="cnc">
-                <img src="images/products/cnc-drilling.jpg" alt="CNC Plate Drilling Machine" loading="lazy">
-                <h4>CNC Plate Drilling Machine</h4>
-                <p>Heavy-duty, multi-spindle system for precise drilling of structural steel plates and tube sheets.</p>
-                <div class="product-specs">
-                    <span>Multi-Spindle</span>
-                    <span>Up to 25mm Drill</span>
-                </div>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-
-            <!-- ===== PRODUCT 8: Beam Welding Line ===== -->
-            <div class="product-card" id="beam-line" data-category="welding">
-                <img src="images/products/beam-welding-line.jpg" alt="Beam Welding Line" loading="lazy">
-                <div class="product-badge">Complete Line</div>
-                <h4>Beam Welding Line</h4>
-                <p>Complete multi-station assembly line for automated fit-up and multi-pass welding of heavy beams.</p>
-                <div class="product-specs">
-                    <span>15m Conveyor</span>
-                    <span>Triple-Head SAW</span>
-                </div>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-
+            <!-- Cards will be injected dynamically -->
         </div>
     </div>
 </section>
@@ -223,9 +102,14 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <a href="index.html" class="logo">
-                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation">
+                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation white logo">
                 </a>
                 <p>Pap Weld Core Automation Private Limited designs and manufactures H-Beam welding machines, robotic welding systems, and CNC fabrication equipment from Chennai, India.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><span class="icon--linkedin" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMjAuNDUgMjAuNDVoLTMuNTV2LTUuNTVjMC0xLjMyLS4wMi0zLjAyLTEuODQtMy4wMi0xLjg0IDAtMi4xMiAxLjQ0LTIuMTIgMi45M3Y1LjY0aC0zLjU1VjloMy40MXYxLjU2aC4wNWMuNDctLjkgMS42Mi0xLjg0IDMuMzYtMS44NCAzLjYgMCA0LjI2IDIuMzcgNC4yNiA1LjQ2djYuMjN6TTUuMzcgNy4zMmMtMS4xNCAwLTIuMDYtLjkyLTIuMDYtMi4wNiAwLTEuMTQuOTItMi4wNiAyLjA2LTIuMDYgMS4xNCAwIDIuMDYuOTIgMi4wNiAyLjA2IDAgMS4xNC0uOTIgMi4wNi0yLjA2IDIuMDZ6bS0xLjc5IDEzLjEzaDMuNTVWOUgzLjU4djExLjQ1eiIvPjwvc3ZnPg==')"></span></a>
+                    <a href="#" aria-label="YouTube"><span class="icon--youtube" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMjEuNTggNy4xOWMtLjIzLS44Ni0uOTEtMS41NC0xLjc3LTEuNzdDMTguMjUgNSAxMiA1IDEyIDVzLTYuMjUgMC03LjgxLjQyYy0uODYuMjMtMS41NC45MS0xLjc3IDEuNzdDMiA4Ljc1IDIgMTIgMiAxMnMwIDMuMjUuNDIgNC44MWMuMjMuODYuOTEgMS41NCAxLjc3IDEuNzdDNS43NSAxOSAxMiAxOSAxMiAxOXM2LjI1IDAgNy44MS0uNDJjLjg2LS4yMyAxLjU0LS45MSAxLjc3LTEuNzdDMjIgMTUuMjUgMjIgMTIgMjIgMTJzMC0zLjI1LS40Mi00Ljgxek0xMCAxNS4wNlY4Ljk0bDUuMjIgMy4wNkwxMCAxNS4wNnoiLz48L3N2Zz4=')"></span></a>
+                    <a href="#" aria-label="Twitter / X"><span class="icon--twitter" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMTguMjQ0IDIuMjVoMy4zMDhsLTcuMjI3IDguMjYgOC41MDIgMTEuMjRoLTYuNjQzbC01LjIxNi02LjgxNy01Ljk1NiA2LjgxN0gyLjE3NWw3LjczLTguODM1TDcuMDI5IDIuMjVoNi44MTVsNC43MTMgNi4xOTF6bS0xLjE2MSAxNy41MmgxLjgzMkw2Ljk5OCAzLjk1N0g1LjA0bDEyLjA0MyAxNS44MTN6Ii8+PC9zdmc+')"></span></a>
+                </div>
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>
@@ -265,34 +149,119 @@
 
 <script src="js/main.js"></script>
 
-<!-- ===== FILTER SCRIPT ===== -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const filterTabs = document.querySelectorAll('.filter-tab');
-    const productCards = document.querySelectorAll('.product-card');
 
-    filterTabs.forEach(tab => {
-        tab.addEventListener('click', function() {
-            filterTabs.forEach(t => t.classList.remove('active'));
-            this.classList.add('active');
+    const categoryMap = {
+        'H Beam Welding Machine': 'welding',
+        'Robotic Welding System': 'robotic',
+        'CNC Machines': 'cnc',
+        'Robotic Welding Cell': 'robotic',
+        'Robotic Welding Automation': 'robotic',
+        'PEB Beam Welding Automation': 'welding',
+        'CNC Plate Drilling Machine': 'cnc',
+        'Beam Welding Line': 'welding',
+        'New Items': 'cnc'
+    };
 
-            const filterValue = this.getAttribute('data-filter');
+    fetch('data/products-data.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load product data.');
+            return response.json();
+        })
+        .then(data => {
+            const products = data.products;
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = '';
 
-            productCards.forEach(card => {
-                if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
-                    card.style.display = 'block';
-                    card.style.opacity = '0';
-                    card.style.transform = 'translateY(20px)';
-                    setTimeout(() => {
-                        card.style.opacity = '1';
-                        card.style.transform = 'translateY(0)';
-                    }, 100);
-                } else {
-                    card.style.display = 'none';
+            products.forEach((product) => {
+                const card = document.createElement('div');
+                card.className = 'product-card';
+                card.setAttribute('data-category', categoryMap[product.category] || 'welding');
+                card.id = product.id;
+
+                let badgeHTML = '';
+                if (product.badge) {
+                    badgeHTML = `<div class="product-badge">${product.badge}</div>`;
                 }
+
+                // Use the full URL from product.image
+                const imgSrc = product.image;
+
+                let specHTML = '';
+                if (product.specs && product.specs.length > 0) {
+                    const firstSpec = product.specs[0];
+                    const secondSpec = product.specs[1] || product.specs[0];
+                    specHTML = `
+                        <div class="product-specs">
+                            <span>${firstSpec.label}: ${firstSpec.value}</span>
+                            <span>${secondSpec.label}: ${secondSpec.value}</span>
+                        </div>
+                    `;
+                } else {
+                    specHTML = `
+                        <div class="product-specs">
+                            <span>${product.category}</span>
+                            <span> </span>
+                        </div>
+                    `;
+                }
+
+                card.innerHTML = `
+                    <img src="${imgSrc}" alt="${product.name}" loading="lazy">
+                    ${badgeHTML}
+                    <h4>${product.name}</h4>
+                    <p>${product.description.substring(0, 100)}${product.description.length > 100 ? '...' : ''}</p>
+                    ${specHTML}
+                    <div class="card-actions">
+                        <a href="product-detail.html?id=${product.id}" class="btn btn-small btn-outline">View Specs</a>
+                        <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
+                    </div>
+                `;
+
+                grid.appendChild(card);
             });
+
+            // Filter logic
+            const filterTabs = document.querySelectorAll('.filter-tab');
+            const productCards = document.querySelectorAll('.product-card');
+
+            function filterCards(filterValue) {
+                productCards.forEach(card => {
+                    const cat = card.getAttribute('data-category');
+                    if (filterValue === 'all' || cat === filterValue) {
+                        card.style.display = 'block';
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 100);
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            filterTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    filterTabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    const filterValue = this.getAttribute('data-filter');
+                    filterCards(filterValue);
+                });
+            });
+
+            filterCards('all');
+        })
+        .catch(error => {
+            console.error('Error loading products:', error);
+            document.getElementById('productGrid').innerHTML = `
+                <div style="grid-column:1/-1; text-align:center; padding:40px;">
+                    <p>Failed to load products. Please try again later.</p>
+                </div>
+            `;
         });
-    });
 });
 </script>
 </body>

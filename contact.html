@@ -13,30 +13,35 @@
 </head>
 <body>
 
+<!-- ===== BACK TO TOP BUTTON ===== -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
 <!-- ===== HEADER ===== -->
 <header id="header" class="header">
     <div class="container header-wrapper">
         <a href="index.html" class="logo">
-            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation">
+            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation logo">
             <span class="logo-text">
                 <span class="name">Pap Weld Core</span>
                 <span class="sub">AUTOMATION PVT. LTD.</span>
             </span>
         </a>
-        <nav class="nav">
+        <nav class="nav" aria-label="Main navigation">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about.html" class="nav-link">About Us</a></li>
                 <li class="dropdown">
-                    <a href="products.html" class="nav-link">Products ▾</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="products.html#h-beam">H-Beam Welding Machine</a></li>
-                        <li><a href="products.html#robotic">Robotic Welding System</a></li>
-                        <li><a href="products.html#cnc">CNC Machines</a></li>
-                        <li><a href="products.html#robotic-cell">Robotic Welding Cell</a></li>
-                        <li><a href="products.html#peb">PEB Beam Welding Automation</a></li>
-                        <li><a href="products.html#drilling">CNC Plate Drilling Machine</a></li>
-                        <li><a href="products.html#beam-line">Beam Welding Line</a></li>
+                    <a href="products.html" class="nav-link" aria-haspopup="true" aria-expanded="false">Products ▾</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="products.html#h-beam" role="menuitem">H-Beam Welding Machine</a></li>
+                        <li><a href="products.html#robotic" role="menuitem">Robotic Welding System</a></li>
+                        <li><a href="products.html#cnc" role="menuitem">CNC Machines</a></li>
+                        <li><a href="products.html#robotic-cell" role="menuitem">Robotic Welding Cell</a></li>
+                        <li><a href="products.html#peb" role="menuitem">PEB Beam Welding Automation</a></li>
+                        <li><a href="products.html#drilling" role="menuitem">CNC Plate Drilling Machine</a></li>
+                        <li><a href="products.html#beam-line" role="menuitem">Beam Welding Line</a></li>
                     </ul>
                 </li>
                 <li><a href="industries.html" class="nav-link">Industries</a></li>
@@ -69,7 +74,7 @@
         <div class="contact-wrapper">
 
             <!-- ===== LEFT: CONTACT FORM ===== -->
-            <div class="contact-form-wrapper">
+            <div class="contact-form-wrapper" data-aos="fade-right">
                 <div class="form-header">
                     <h2>Send Us a Message</h2>
                     <p>Fill in the details below and our team will get back to you shortly.</p>
@@ -118,6 +123,9 @@
                         <textarea id="message" name="message" placeholder="Beam sizes, target throughput, or project details..." rows="5"></textarea>
                     </div>
 
+                    <!-- Honeypot -->
+                    <input type="text" name="honeypot" style="display:none;" tabindex="-1" autocomplete="off">
+
                     <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
 
                     <button type="submit" class="btn btn-primary btn-large btn-block">Send Message</button>
@@ -125,13 +133,14 @@
             </div>
 
             <!-- ===== RIGHT: CONTACT INFO & MAP ===== -->
-            <div class="contact-info-wrapper">
+            <div class="contact-info-wrapper" data-aos="fade-left">
                 <!-- Contact Info Cards -->
                 <div class="contact-info-list">
 
+                    <!-- Factory Address -->
                     <div class="contact-info-item">
                         <div class="contact-info-icon">
-                            <span class="icon--fabrication" style="color:var(--orange); width:20px; height:20px; display:block;"></span>
+                            <span class="icon--location" style="color:var(--orange); width:24px; height:24px; display:block;"></span>
                         </div>
                         <div>
                             <h4>Factory Address</h4>
@@ -139,9 +148,10 @@
                         </div>
                     </div>
 
+                    <!-- Registered Office -->
                     <div class="contact-info-item">
                         <div class="contact-info-icon">
-                            <span class="icon--cnc" style="color:var(--blue); width:20px; height:20px; display:block;"></span>
+                            <span class="icon--location" style="color:var(--blue); width:24px; height:24px; display:block;"></span>
                         </div>
                         <div>
                             <h4>Registered Office</h4>
@@ -149,9 +159,10 @@
                         </div>
                     </div>
 
+                    <!-- Phone Numbers -->
                     <div class="contact-info-item">
                         <div class="contact-info-icon">
-                            <span class="icon--robotic" style="color:var(--teal); width:20px; height:20px; display:block;"></span>
+                            <span class="icon--phone" style="color:var(--teal); width:24px; height:24px; display:block;"></span>
                         </div>
                         <div>
                             <h4>Phone Numbers</h4>
@@ -160,9 +171,10 @@
                         </div>
                     </div>
 
+                    <!-- Email -->
                     <div class="contact-info-item">
                         <div class="contact-info-icon">
-                            <span class="icon--welding" style="color:var(--amethyst); width:20px; height:20px; display:block;"></span>
+                            <span class="icon--email" style="color:var(--amethyst); width:24px; height:24px; display:block;"></span>
                         </div>
                         <div>
                             <h4>Email</h4>
@@ -170,9 +182,10 @@
                         </div>
                     </div>
 
+                    <!-- Business Hours -->
                     <div class="contact-info-item">
                         <div class="contact-info-icon">
-                            <span class="icon--cnc" style="color:var(--orange); width:20px; height:20px; display:block;"></span>
+                            <span class="icon--clock" style="color:var(--orange); width:24px; height:24px; display:block;"></span>
                         </div>
                         <div>
                             <h4>Business Hours</h4>
@@ -218,9 +231,14 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <a href="index.html" class="logo">
-                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation">
+                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation white logo">
                 </a>
                 <p>Pap Weld Core Automation Private Limited designs and manufactures H-Beam welding machines, robotic welding systems, and CNC fabrication equipment from Chennai, India.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><span class="icon--linkedin" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMjAuNDUgMjAuNDVoLTMuNTV2LTUuNTVjMC0xLjMyLS4wMi0zLjAyLTEuODQtMy4wMi0xLjg0IDAtMi4xMiAxLjQ0LTIuMTIgMi45M3Y1LjY0aC0zLjU1VjloMy40MXYxLjU2aC4wNWMuNDctLjkgMS42Mi0xLjg0IDMuMzYtMS44NCAzLjYgMCA0LjI2IDIuMzcgNC4yNiA1LjQ2djYuMjN6TTUuMzcgNy4zMmMtMS4xNCAwLTIuMDYtLjkyLTIuMDYtMi4wNiAwLTEuMTQuOTItMi4wNiAyLjA2LTIuMDYgMS4xNCAwIDIuMDYuOTIgMi4wNiAyLjA2IDAgMS4xNC0uOTIgMi4wNi0yLjA2IDIuMDZ6bS0xLjc5IDEzLjEzaDMuNTVWOUgzLjU4djExLjQ1eiIvPjwvc3ZnPg==')"></span></a>
+                    <a href="#" aria-label="YouTube"><span class="icon--youtube" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMjEuNTggNy4xOWMtLjIzLS44Ni0uOTEtMS41NC0xLjc3LTEuNzdDMTguMjUgNSAxMiA1IDEyIDVzLTYuMjUgMC03LjgxLjQyYy0uODYuMjMtMS41NC45MS0xLjc3IDEuNzdDMiA4Ljc1IDIgMTIgMiAxMnMwIDMuMjUuNDIgNC44MWMuMjMuODYuOTEgMS41NCAxLjc3IDEuNzdDNS43NSAxOSAxMiAxOSAxMiAxOXM2LjI1IDAgNy44MS0uNDJjLjg2LS4yMyAxLjU0LS45MSAxLjc3LTEuNzdDMjIgMTUuMjUgMjIgMTIgMjIgMTJzMC0zLjI1LS40Mi00Ljgxek0xMCAxNS4wNlY4Ljk0bDUuMjIgMy4wNkwxMCAxNS4wNnoiLz48L3N2Zz4=')"></span></a>
+                    <a href="#" aria-label="Twitter / X"><span class="icon--twitter" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMTguMjQ0IDIuMjVoMy4zMDhsLTcuMjI3IDguMjYgOC41MDIgMTEuMjRoLTYuNjQzbC01LjIxNi02LjgxNy01Ljk1NiA2LjgxN0gyLjE3NWw3LjczLTguODM1TDcuMDI5IDIuMjVoNi44MTVsNC43MTMgNi4xOTF6bS0xLjE2MSAxNy41MmgxLjgzMkw2Ljk5OCAzLjk1N0g1LjA0bDEyLjA0MyAxNS44MTN6Ii8+PC9zdmc+')"></span></a>
+                </div>
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>
@@ -260,7 +278,6 @@
 
 <script src="js/main.js"></script>
 
-<!-- ===== CONTACT FORM SCRIPT ===== -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contact-form');
@@ -270,8 +287,6 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
 
-            // Basic required-field validation (native "required" attrs
-            // are backed up here since the form uses novalidate)
             const nameField = this.querySelector('#name');
             const emailField = this.querySelector('#email');
             if (!nameField.value.trim() || !emailField.value.trim()) {

@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H-Beam Welding Machine | Pap Weld Core Automation</title>
-    <meta name="description" content="PTW H-Beam Welding Machine — automatic SAW submerged arc welding system for structural steel beams up to 12m. Request a quote from Pap Weld Core Automation.">
-    <meta name="keywords" content="H Beam Welding Machine, PTW Welding Machine, SAW Welding, Structural Steel Welding, PEB Welding, Pap Weld Core Automation">
+    <title id="page-title">Product | Pap Weld Core Automation</title>
+    <meta name="description" id="meta-description" content="...">
     <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,30 +13,35 @@
 </head>
 <body>
 
+<!-- ===== BACK TO TOP BUTTON ===== -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
 <!-- ===== HEADER ===== -->
 <header id="header" class="header">
     <div class="container header-wrapper">
         <a href="index.html" class="logo">
-            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation">
+            <img src="images/logo/logo-main.png" alt="Pap Weld Core Automation logo">
             <span class="logo-text">
                 <span class="name">Pap Weld Core</span>
                 <span class="sub">AUTOMATION PVT. LTD.</span>
             </span>
         </a>
-        <nav class="nav">
+        <nav class="nav" aria-label="Main navigation">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about.html" class="nav-link">About Us</a></li>
                 <li class="dropdown">
-                    <a href="products.html" class="nav-link active">Products ▾</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="products.html#h-beam">H-Beam Welding Machine</a></li>
-                        <li><a href="products.html#robotic">Robotic Welding System</a></li>
-                        <li><a href="products.html#cnc">CNC Machines</a></li>
-                        <li><a href="products.html#robotic-cell">Robotic Welding Cell</a></li>
-                        <li><a href="products.html#peb">PEB Beam Welding Automation</a></li>
-                        <li><a href="products.html#drilling">CNC Plate Drilling Machine</a></li>
-                        <li><a href="products.html#beam-line">Beam Welding Line</a></li>
+                    <a href="products.html" class="nav-link active" aria-haspopup="true" aria-expanded="false">Products ▾</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="products.html#h-beam" role="menuitem">H-Beam Welding Machine</a></li>
+                        <li><a href="products.html#robotic" role="menuitem">Robotic Welding System</a></li>
+                        <li><a href="products.html#cnc" role="menuitem">CNC Machines</a></li>
+                        <li><a href="products.html#robotic-cell" role="menuitem">Robotic Welding Cell</a></li>
+                        <li><a href="products.html#peb" role="menuitem">PEB Beam Welding Automation</a></li>
+                        <li><a href="products.html#drilling" role="menuitem">CNC Plate Drilling Machine</a></li>
+                        <li><a href="products.html#beam-line" role="menuitem">Beam Welding Line</a></li>
                     </ul>
                 </li>
                 <li><a href="industries.html" class="nav-link">Industries</a></li>
@@ -55,12 +59,12 @@
     </div>
 </header>
 
-<!-- ===== PAGE HEADER ===== -->
+<!-- ===== PAGE HEADER (dynamic) ===== -->
 <section class="page-header" style="padding-bottom: 40px;">
     <div class="container">
-        <div class="breadcrumb"><a href="index.html">Home</a> / <a href="products.html">Products</a> / H-Beam Welding Machine</div>
-        <h1>H-Beam Welding Machine</h1>
-        <p>PTW Series — automatic pull-through welding system for continuous, heavy-duty H-Beam fabrication.</p>
+        <div class="breadcrumb"><a href="index.html">Home</a> / <a href="products.html">Products</a> / <span id="breadcrumb-category">...</span></div>
+        <h1 id="product-title">Loading...</h1>
+        <p id="product-subtitle"></p>
     </div>
 </section>
 
@@ -69,59 +73,25 @@
     <div class="container">
         <div class="product-detail-wrapper">
 
-            <!-- ===== LEFT: Product Images ===== -->
-            <div class="product-detail-media">
+            <!-- LEFT: Product Images -->
+            <div class="product-detail-media" data-aos="fade-right">
                 <div class="product-main-image">
-                    <img src="images/products/h-beam-welding.jpg" alt="H Beam Welding Machine" loading="eager">
+                    <img id="main-image" src="" alt="Product" loading="eager">
                 </div>
-                <div class="product-thumbnails">
-                    <div class="product-thumb active">
-                        <img src="images/products/h-beam-welding.jpg" alt="H Beam Welding Machine">
-                    </div>
-                    <div class="product-thumb">
-                        <img src="images/products/h-beam-welding.jpg" alt="H Beam Welding Machine">
-                    </div>
-                    <div class="product-thumb">
-                        <img src="images/products/h-beam-welding.jpg" alt="H Beam Welding Machine">
-                    </div>
-                    <div class="product-thumb">
-                        <img src="images/products/h-beam-welding.jpg" alt="H Beam Welding Machine">
-                    </div>
+                <div class="product-thumbnails" id="thumbnails-container">
+                    <!-- thumbnails will be injected -->
                 </div>
             </div>
 
-            <!-- ===== RIGHT: Product Info ===== -->
-            <div class="product-detail-info">
-                <div class="product-detail-badge">PTW Series</div>
-                <h2>H-Beam Welding Machine</h2>
-                <p class="product-detail-desc">An automatic pull-through welding system built for continuous, heavy-duty H-Beam fabrication. Submerged arc welding delivers deep, consistent penetration across beam lengths up to 12 metres, with AC/DC power switching for varying material grades.</p>
+            <!-- RIGHT: Product Info -->
+            <div class="product-detail-info" data-aos="fade-left">
+                <div class="product-detail-badge" id="product-badge"></div>
+                <h2 id="product-name">Loading...</h2>
+                <p class="product-detail-desc" id="product-description"></p>
 
                 <!-- Quick Specs -->
-                <div class="product-detail-specs">
-                    <div class="spec-item">
-                        <span class="spec-label">Automation Grade</span>
-                        <span class="spec-value">Automatic</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Welding Process</span>
-                        <span class="spec-value">SAW (Submerged Arc)</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Max Beam Height</span>
-                        <span class="spec-value">800 mm</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Beam Length Capacity</span>
-                        <span class="spec-value">Up to 12 m</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Power Source</span>
-                        <span class="spec-value">AC/DC</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Productivity</span>
-                        <span class="spec-value">High-speed continuous</span>
-                    </div>
+                <div class="product-detail-specs" id="quick-specs">
+                    <!-- injected -->
                 </div>
 
                 <!-- CTA Buttons -->
@@ -135,7 +105,7 @@
     </div>
 </section>
 
-<!-- ===== TABS: Description / Specifications / Applications ===== -->
+<!-- ===== TABS ===== -->
 <section class="product-tabs-section">
     <div class="container">
         <div class="product-tabs">
@@ -148,14 +118,9 @@
         <div class="product-tab-content active" id="tab-description">
             <div class="tab-content-inner">
                 <h3>Product Overview</h3>
-                <p>The PTW (Pull-Through Welding) machine is our flagship H-Beam welding platform, engineered for fabricators running continuous production of structural steel beams. Submerged arc welding gives clean, spatter-free seams with minimal post-weld cleanup.</p>
-                <p>The machine handles both vertical and horizontal beam orientations, with programmable travel speed and wire feed to match web and flange thickness on a per-job basis.</p>
-                <ul class="feature-list">
-                    <li>✓ Continuous pull-through welding for high productivity</li>
-                    <li>✓ Deep penetration SAW process for structural integrity</li>
-                    <li>✓ Programmable settings for varying beam sizes</li>
-                    <li>✓ Minimal post-weld cleanup required</li>
-                    <li>✓ 12-month parts warranty with Chennai-based support</li>
+                <p id="full-description"></p>
+                <ul class="feature-list" id="feature-list">
+                    <!-- injected -->
                 </ul>
             </div>
         </div>
@@ -164,47 +129,8 @@
         <div class="product-tab-content" id="tab-specifications">
             <div class="tab-content-inner">
                 <h3>Technical Specifications</h3>
-                <table class="spec-table">
-                    <tr>
-                        <td>Input Power</td>
-                        <td>415V, 3-Phase AC</td>
-                    </tr>
-                    <tr>
-                        <td>Wire Diameter</td>
-                        <td>0.5 mm</td>
-                    </tr>
-                    <tr>
-                        <td>Travel Speed</td>
-                        <td>100 – 300 mm/min</td>
-                    </tr>
-                    <tr>
-                        <td>Beam Thickness</td>
-                        <td>Up to 12 mm</td>
-                    </tr>
-                    <tr>
-                        <td>Max Beam Height</td>
-                        <td>800 mm</td>
-                    </tr>
-                    <tr>
-                        <td>Beam Length Capacity</td>
-                        <td>Up to 12 m</td>
-                    </tr>
-                    <tr>
-                        <td>Productivity</td>
-                        <td>High-speed continuous</td>
-                    </tr>
-                    <tr>
-                        <td>Power Source</td>
-                        <td>AC/DC</td>
-                    </tr>
-                    <tr>
-                        <td>Control System</td>
-                        <td>PLC Based</td>
-                    </tr>
-                    <tr>
-                        <td>Automation Grade</td>
-                        <td>Fully Automatic</td>
-                    </tr>
+                <table class="spec-table" id="spec-table">
+                    <!-- injected -->
                 </table>
             </div>
         </div>
@@ -213,38 +139,9 @@
         <div class="product-tab-content" id="tab-applications">
             <div class="tab-content-inner">
                 <h3>Applications / Industries</h3>
-                <p>Our H-Beam Welding Machine is trusted across multiple industries for its reliability and precision.</p>
-                <div class="applications-grid">
-                    <div class="application-item">
-                        <span class="icon--welding" style="color:var(--orange); width:32px; height:32px; display:block; margin-bottom:8px;"></span>
-                        <h5>Structural Steel</h5>
-                        <p>Column and beam fabrication</p>
-                    </div>
-                    <div class="application-item">
-                        <span class="icon--fabrication" style="color:var(--teal); width:32px; height:32px; display:block; margin-bottom:8px;"></span>
-                        <h5>Heavy Fabrication</h5>
-                        <p>High-tonnage assemblies</p>
-                    </div>
-                    <div class="application-item">
-                        <span class="icon--cnc" style="color:var(--blue); width:32px; height:32px; display:block; margin-bottom:8px;"></span>
-                        <h5>Shipbuilding</h5>
-                        <p>Hull section framing</p>
-                    </div>
-                    <div class="application-item">
-                        <span class="icon--robotic" style="color:var(--amethyst); width:32px; height:32px; display:block; margin-bottom:8px;"></span>
-                        <h5>PEB</h5>
-                        <p>Pre-engineered building frames</p>
-                    </div>
-                    <div class="application-item">
-                        <span class="icon--welding" style="color:var(--orange); width:32px; height:32px; display:block; margin-bottom:8px;"></span>
-                        <h5>Infrastructure</h5>
-                        <p>Bridge and railway girders</p>
-                    </div>
-                    <div class="application-item">
-                        <span class="icon--cnc" style="color:var(--blue); width:32px; height:32px; display:block; margin-bottom:8px;"></span>
-                        <h5>Mining &amp; Earthmoving</h5>
-                        <p>Heavy equipment structures</p>
-                    </div>
+                <p id="app-intro">Our H-Beam Welding Machine is trusted across multiple industries for its reliability and precision.</p>
+                <div class="applications-grid" id="applications-grid">
+                    <!-- injected -->
                 </div>
             </div>
         </div>
@@ -258,34 +155,8 @@
             <div class="eyebrow" style="justify-content:center;">Related Products</div>
             <h2 class="section-title">You Might Also Like</h2>
         </div>
-        <div class="products-grid">
-            <div class="product-card">
-                <img src="images/products/h-beam-welding.jpg" alt="Gantry Welding Machine" loading="lazy">
-                <h4>Gantry Welding Machine</h4>
-                <p>Overhead gantry system for wide-span beam welding.</p>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="images/products/beam-welding-line.jpg" alt="Beam Assembly Line" loading="lazy">
-                <h4>Beam Assembly Line</h4>
-                <p>Fit-up and tack-weld station for beam sections.</p>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="images/products/cnc-machine.jpg" alt="CNC Plate Cutting Machine" loading="lazy">
-                <h4>CNC Plate Cutting Machine</h4>
-                <p>Precision plasma/oxy cutting for steel plate.</p>
-                <div class="card-actions">
-                    <a href="product-detail.html" class="btn btn-small btn-outline">View Specs</a>
-                    <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
-                </div>
-            </div>
+        <div class="products-grid" id="related-products-grid">
+            <!-- injected dynamically -->
         </div>
     </div>
 </section>
@@ -305,9 +176,14 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <a href="index.html" class="logo">
-                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation">
+                    <img src="images/logo/logo-white.png" alt="Pap Weld Core Automation white logo">
                 </a>
                 <p>Pap Weld Core Automation Private Limited designs and manufactures H-Beam welding machines, robotic welding systems, and CNC fabrication equipment from Chennai, India.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><span class="icon--linkedin" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMjAuNDUgMjAuNDVoLTMuNTV2LTUuNTVjMC0xLjMyLS4wMi0zLjAyLTEuODQtMy4wMi0xLjg0IDAtMi4xMiAxLjQ0LTIuMTIgMi45M3Y1LjY0aC0zLjU1VjloMy40MXYxLjU2aC4wNWMuNDctLjkgMS42Mi0xLjg0IDMuMzYtMS44NCAzLjYgMCA0LjI2IDIuMzcgNC4yNiA1LjQ2djYuMjN6TTUuMzcgNy4zMmMtMS4xNCAwLTIuMDYtLjkyLTIuMDYtMi4wNiAwLTEuMTQuOTItMi4wNiAyLjA2LTIuMDYgMS4xNCAwIDIuMDYuOTIgMi4wNiAyLjA2IDAgMS4xNC0uOTIgMi4wNi0yLjA2IDIuMDZ6bS0xLjc5IDEzLjEzaDMuNTVWOUgzLjU4djExLjQ1eiIvPjwvc3ZnPg==')"></span></a>
+                    <a href="#" aria-label="YouTube"><span class="icon--youtube" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMjEuNTggNy4xOWMtLjIzLS44Ni0uOTEtMS41NC0xLjc3LTEuNzdDMTguMjUgNSAxMiA1IDEyIDVzLTYuMjUgMC03LjgxLjQyYy0uODYuMjMtMS41NC45MS0xLjc3IDEuNzdDMiA4Ljc1IDIgMTIgMiAxMnMwIDMuMjUuNDIgNC44MWMuMjMuODYuOTEgMS41NCAxLjc3IDEuNzdDNS43NSAxOSAxMiAxOSAxMiAxOXM2LjI1IDAgNy44MS0uNDJjLjg2LS4yMyAxLjU0LS45MSAxLjc3LTEuNzdDMjIgMTUuMjUgMjIgMTIgMjIgMTJzMC0zLjI1LS40Mi00Ljgxek0xMCAxNS4wNlY4Ljk0bDUuMjIgMy4wNkwxMCAxNS4wNnoiLz48L3N2Zz4=')"></span></a>
+                    <a href="#" aria-label="Twitter / X"><span class="icon--twitter" style="width:20px;height:20px;display:inline-block;background:rgba(255,255,255,0.5);mask-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMTguMjQ0IDIuMjVoMy4zMDhsLTcuMjI3IDguMjYgOC41MDIgMTEuMjRoLTYuNjQzbC01LjIxNi02LjgxNy01Ljk1NiA2LjgxN0gyLjE3NWw3LjczLTguODM1TDcuMDI5IDIuMjVoNi44MTVsNC43MTMgNi4xOTF6bS0xLjE2MSAxNy41MmgxLjgzMkw2Ljk5OCAzLjk1N0g1LjA0bDEyLjA0MyAxNS44MTN6Ii8+PC9zdmc+')"></span></a>
+                </div>
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>
@@ -347,41 +223,203 @@
 
 <script src="js/main.js"></script>
 
-<!-- ===== PRODUCT TAB SCRIPT ===== -->
 <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const params = new URLSearchParams(window.location.search);
+    const productId = params.get('id');
+
+    if (!productId) {
+        document.getElementById('product-title').textContent = 'Product not specified';
+        return;
+    }
+
+    fetch('data/products-data.json')
+        .then(response => response.json())
+        .then(data => {
+            const product = data.products.find(p => p.id === productId);
+            if (!product) {
+                document.getElementById('product-title').textContent = 'Product not found';
+                return;
+            }
+
+            // Title & meta
+            document.title = product.name + ' | Pap Weld Core Automation';
+            document.getElementById('meta-description').content = product.description.substring(0, 160);
+
+            // Breadcrumb
+            document.getElementById('breadcrumb-category').textContent = product.category;
+
+            // Header
+            document.getElementById('product-title').textContent = product.name;
+            document.getElementById('product-subtitle').textContent = product.category + ' — ' + product.name;
+
+            // Badge
+            const badgeEl = document.getElementById('product-badge');
+            if (product.badge) {
+                badgeEl.textContent = product.badge;
+                badgeEl.style.display = 'inline-block';
+            } else {
+                badgeEl.style.display = 'none';
+            }
+
+            // Name
+            document.getElementById('product-name').textContent = product.name;
+
+            // Description
+            document.getElementById('product-description').textContent = product.description;
+
+            // Main Image
+            const mainImg = document.getElementById('main-image');
+            mainImg.src = product.image;
+            mainImg.alt = product.name;
+
+            // Thumbnails
+            const thumbsContainer = document.getElementById('thumbnails-container');
+            thumbsContainer.innerHTML = '';
+            if (product.gallery && product.gallery.length) {
+                product.gallery.forEach((img, index) => {
+                    const thumb = document.createElement('div');
+                    thumb.className = 'product-thumb' + (index === 0 ? ' active' : '');
+                    const thumbImg = document.createElement('img');
+                    thumbImg.src = img;
+                    thumbImg.alt = product.name + ' thumbnail';
+                    thumb.appendChild(thumbImg);
+                    thumb.addEventListener('click', function() {
+                        document.querySelectorAll('.product-thumb').forEach(t => t.classList.remove('active'));
+                        this.classList.add('active');
+                        mainImg.src = img;
+                        mainImg.alt = product.name;
+                    });
+                    thumbsContainer.appendChild(thumb);
+                });
+            } else {
+                // Fallback: use main image as only thumbnail
+                const thumb = document.createElement('div');
+                thumb.className = 'product-thumb active';
+                const thumbImg = document.createElement('img');
+                thumbImg.src = product.image;
+                thumbImg.alt = product.name;
+                thumb.appendChild(thumbImg);
+                thumbsContainer.appendChild(thumb);
+            }
+
+            // Quick Specs
+            const specsContainer = document.getElementById('quick-specs');
+            specsContainer.innerHTML = '';
+            if (product.specs && product.specs.length) {
+                product.specs.forEach(spec => {
+                    const div = document.createElement('div');
+                    div.className = 'spec-item';
+                    div.innerHTML = `<span class="spec-label">${spec.label}</span><span class="spec-value">${spec.value}</span>`;
+                    specsContainer.appendChild(div);
+                });
+            } else {
+                specsContainer.innerHTML = '<div class="spec-item"><span class="spec-label">No specs available</span></div>';
+            }
+
+            // Full Description (Tab1)
+            document.getElementById('full-description').textContent = product.description;
+
+            // Feature List
+            const featureList = document.getElementById('feature-list');
+            featureList.innerHTML = '';
+            if (product.features && product.features.length) {
+                product.features.forEach(feature => {
+                    const li = document.createElement('li');
+                    li.textContent = feature;
+                    featureList.appendChild(li);
+                });
+            } else {
+                featureList.innerHTML = '<li>No features listed.</li>';
+            }
+
+            // Spec Table (Tab2)
+            const specTable = document.getElementById('spec-table');
+            specTable.innerHTML = '';
+            if (product.specs && product.specs.length) {
+                product.specs.forEach(spec => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `<td>${spec.label}</td><td>${spec.value}</td>`;
+                    specTable.appendChild(tr);
+                });
+            } else {
+                specTable.innerHTML = '<tr><td colspan="2">No specifications available.</td></tr>';
+            }
+
+            // Applications (Tab3)
+            const appsGrid = document.getElementById('applications-grid');
+            appsGrid.innerHTML = '';
+            if (product.applications && product.applications.length) {
+                const iconMap = {
+                    'peb': 'icon--peb',
+                    'structural': 'icon--structural-steel',
+                    'heavy': 'icon--heavy-fab-industry',
+                    'infrastructure': 'icon--infrastructure',
+                    'automotive': 'icon--automotive',
+                    'defence': 'icon--defence-aerospace',
+                    'welding': 'icon--welding',
+                    'robotic': 'icon--robotic',
+                    'cnc': 'icon--cnc',
+                    'fabrication': 'icon--fabrication'
+                };
+                product.applications.forEach(app => {
+                    const div = document.createElement('div');
+                    div.className = 'application-item';
+                    const iconClass = iconMap[app.icon] || 'icon--welding';
+                    div.innerHTML = `
+                        <span class="${iconClass}" style="color:var(--orange); width:32px; height:32px; display:block; margin:0 auto 8px;"></span>
+                        <h5>${app.name}</h5>
+                        <p>${app.desc || ''}</p>
+                    `;
+                    appsGrid.appendChild(div);
+                });
+            } else {
+                appsGrid.innerHTML = '<p>No specific applications listed.</p>';
+            }
+
+            // Related Products (3 random from same category or any)
+            const relatedGrid = document.getElementById('related-products-grid');
+            relatedGrid.innerHTML = '';
+            const sameCategory = data.products.filter(p => p.category === product.category && p.id !== product.id);
+            const shuffled = sameCategory.length ? sameCategory.sort(() => 0.5 - Math.random()) : data.products.filter(p => p.id !== product.id).sort(() => 0.5 - Math.random());
+            const related = shuffled.slice(0, 3);
+            if (related.length) {
+                related.forEach(p => {
+                    const card = document.createElement('div');
+                    card.className = 'product-card';
+                    card.innerHTML = `
+                        <img src="${p.image}" alt="${p.name}" loading="lazy">
+                        <h4>${p.name}</h4>
+                        <p>${p.description.substring(0, 80)}...</p>
+                        <div class="card-actions">
+                            <a href="product-detail.html?id=${p.id}" class="btn btn-small btn-outline">View Specs</a>
+                            <a href="contact.html" class="btn btn-small btn-primary">Get Quote</a>
+                        </div>
+                    `;
+                    relatedGrid.appendChild(card);
+                });
+            } else {
+                relatedGrid.innerHTML = '<p style="grid-column:1/-1;text-align:center;">No related products found.</p>';
+            }
+        })
+        .catch(error => {
+            console.error('Error loading product data:', error);
+            document.getElementById('product-title').textContent = 'Error loading product';
+        });
+});
+
+// TAB SWITCHING
 document.addEventListener('DOMContentLoaded', function() {
     const tabs = document.querySelectorAll('.product-tab');
     const contents = document.querySelectorAll('.product-tab-content');
 
     tabs.forEach(tab => {
         tab.addEventListener('click', function() {
-            // Remove active class from all tabs
             tabs.forEach(t => t.classList.remove('active'));
             this.classList.add('active');
-
-            // Hide all tab contents
             contents.forEach(c => c.classList.remove('active'));
-
-            // Show the selected tab content
             const target = document.getElementById(this.dataset.tab);
-            if (target) {
-                target.classList.add('active');
-            }
-        });
-    });
-
-    // Thumbnail click to change main image
-    const thumbs = document.querySelectorAll('.product-thumb');
-    const mainImage = document.querySelector('.product-main-image img');
-
-    thumbs.forEach(thumb => {
-        thumb.addEventListener('click', function() {
-            thumbs.forEach(t => t.classList.remove('active'));
-            this.classList.add('active');
-            const imgSrc = this.querySelector('img').getAttribute('src');
-            if (mainImage) {
-                mainImage.setAttribute('src', imgSrc);
-            }
+            if (target) target.classList.add('active');
         });
     });
 });
