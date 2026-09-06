@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /downloads/
-Disallow: /send-mail.php
-
-Sitemap: https://papweld.com/sitemap.xml
