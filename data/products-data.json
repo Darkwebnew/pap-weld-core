@@ -1,0 +1,865 @@
+{
+  "products": [
+    {
+      "id": "h-beam-1",
+      "category": "H Beam Welding Machine",
+      "name": "PTW - Pull Thru Welding Machine",
+      "badge": "Best Seller",
+      "description": "An automatic pull-through welding system built for continuous, heavy-duty H-Beam fabrication. Submerged arc welding delivers deep, consistent penetration across beam lengths up to 6 metres, with AC/DC power switching for varying material grades.",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585704480/VQ/DI/VJ/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585704480/VQ/DI/VJ/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611753209/ML/RU/GF/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611753213/SR/CW/OV/106518927/ptw-pull-thru-welding-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW (Submerged Arc)"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Beam Length", "value": "6 m"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"}
+      ],
+      "features": [
+        "✓ Continuous pull-through welding for high productivity",
+        "✓ Deep penetration SAW process for structural integrity",
+        "✓ Programmable settings for varying beam sizes",
+        "✓ Minimal post-weld cleanup required",
+        "✓ 12-month parts warranty with Chennai-based support"
+      ],
+      "applications": [
+        {"name": "Structural Steel", "desc": "Column and beam fabrication", "icon": "welding"},
+        {"name": "Heavy Fabrication", "desc": "High-tonnage assemblies", "icon": "fabrication"},
+        {"name": "Shipbuilding", "desc": "Hull section framing", "icon": "cnc"},
+        {"name": "PEB", "desc": "Pre-engineered building frames", "icon": "robotic"},
+        {"name": "Infrastructure", "desc": "Bridge and railway girders", "icon": "welding"},
+        {"name": "Mining & Earthmoving", "desc": "Heavy equipment structures", "icon": "cnc"}
+      ]
+    },
+    {
+      "id": "h-beam-2",
+      "category": "H Beam Welding Machine",
+      "name": "PTW - Pull Thru Welding Machine",
+      "badge": "",
+      "description": "A PTW (Pull-Through Welding) machine is a highly specialized, automated industrial system engineered specifically for the continuous fabrication of structural H-beams, I-beams, and tapered girders...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585696387/NP/OE/HS/106518927/laser-beam-expander-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585696387/NP/OE/HS/106518927/laser-beam-expander-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611750120/TT/IL/IV/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611750125/FE/NO/QM/106518927/ptw-pull-thru-welding-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Beam Length", "value": "6 m"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"}
+      ],
+      "features": ["✓ High-speed pull-through design", "✓ Fixed torch configuration", "✓ PLC controlled"],
+      "applications": []
+    },
+    {
+      "id": "h-beam-3",
+      "category": "H Beam Welding Machine",
+      "name": "Railway H Beam Fabrication Line For Bridge Beam Welding",
+      "badge": "",
+      "description": "A railway H-beam fabrication line for bridge beam welding is a heavy-duty, highly automated industrial production system engineered to manufacture massive structural steel girders...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585697817/BY/UY/DK/106518927/infrared-light-beam-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585697817/BY/UY/DK/106518927/infrared-light-beam-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611747977/PE/PZ/OC/106518927/railway-h-beam-fabrication-line-for-bridge-beam-welding-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611747979/AE/BM/YA/106518927/railway-h-beam-fabrication-line-for-bridge-beam-welding-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Beam Length", "value": "6 m"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "h-beam-4",
+      "category": "H Beam Welding Machine",
+      "name": "H Beam Tack Welding Machine",
+      "badge": "",
+      "description": "An H-beam tack welding machine is a specialized, highly automated fabrication system designed to clamp and securely tack-weld three individual steel plates...",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608941/LY/CJ/YU/106518927/image-500x500.jpeg",
+      "gallery": [
+        "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608941/LY/CJ/YU/106518927/image-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611755510/EY/KU/VD/106518927/h-beam-tack-welding-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611755511/IN/AX/CK/106518927/h-beam-tack-welding-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Beam Length", "value": "6 m"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "h-beam-5",
+      "category": "H Beam Welding Machine",
+      "name": "H Beam Flipping Device",
+      "badge": "",
+      "description": "An H-beam flipping device (also referred to as a beam rotator, structural flipper, or tilting machine) is an industrial material-handling system built to safely lift, spin, and reposition large structural steel members...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585698552/AB/IR/GE/106518927/electron-beam-welders-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585698552/AB/IR/GE/106518927/electron-beam-welders-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611756297/RE/WW/JK/106518927/h-beam-flipping-device-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611756301/HX/UT/DS/106518927/h-beam-flipping-device-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Beam Height", "value": "Up to 800 mm"},
+        {"label": "Beam Width", "value": "Up to 400 mm"},
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Flange Thickness", "value": "Up to 20 mm"},
+        {"label": "Web Thickness", "value": "Up to 8 mm"},
+        {"label": "Power Source", "value": "Hydraulic"},
+        {"label": "Travel Speed", "value": "Up to 3 m/min"},
+        {"label": "Welding Process", "value": "TIG, SAW, MIG"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "h-beam-6",
+      "category": "H Beam Welding Machine",
+      "name": "H Beam Assembly Machine",
+      "badge": "",
+      "description": "An H-beam assembly machine (often called an H-beam spot welding or tacking machine) is an automated system used to align, clamp, and tack-weld three independent steel plates...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585685913/YN/OP/TS/106518927/h-beam-assembly-machine-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585685913/YN/OP/TS/106518927/h-beam-assembly-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611755934/MK/XK/IB/106518927/h-beam-assembly-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611755935/DO/RG/VM/106518927/h-beam-assembly-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Beam Height", "value": "Up to 800 mm"},
+        {"label": "Beam Width", "value": "Up to 400 mm"},
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Flange Thickness", "value": "Up to 20 mm"},
+        {"label": "Web Thickness", "value": "Up to 8 mm"},
+        {"label": "Power Source", "value": "Hydraulic"},
+        {"label": "Travel Speed", "value": "Up to 3 m/min"},
+        {"label": "Welding Process", "value": "SAW"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "h-beam-7",
+      "category": "H Beam Welding Machine",
+      "name": "H Beam Welding Machine",
+      "badge": "",
+      "description": "An H-beam welding machine is heavy-duty industrial hardware designed to automate the assembly, positioning, and seam welding of steel flange and web plates into structural H-beams or I-beams...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585686944/UP/LY/NG/106518927/fully-automatic-trimming-machine-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585686944/UP/LY/NG/106518927/fully-automatic-trimming-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611746635/BL/TK/GD/106518927/h-beam-welding-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Welding Head", "value": "Single Head"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"},
+        {"label": "Beam Length", "value": "6 m"},
+        {"label": "Control System", "value": "PLC"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "robotic-1",
+      "category": "Robotic Welding System",
+      "name": "PAP Post Beam Robotic Welding",
+      "badge": "Featured",
+      "description": "Post beam robotic welding system for automated structural steel fabrication...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609988427/JC/OM/LF/106518927/download-2026-05-22t132257-855-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609988427/JC/OM/LF/106518927/download-2026-05-22t132257-855-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609988428/QX/ZW/VP/106518927/download-2026-05-22t132315-689-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609988430/JX/EO/RX/106518927/images-2026-05-22t132509-791-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Robot axes", "value": "6 axis"},
+        {"label": "Welding process", "value": "MIG MAG"},
+        {"label": "Payload", "value": "10 kg"},
+        {"label": "Reach", "value": "2000 mm"},
+        {"label": "Controller brand", "value": "Yaskawa"},
+        {"label": "Positioner axis", "value": "1 axis"},
+        {"label": "System layout", "value": "Track mounted"},
+        {"label": "Wire feeder type", "value": "Push pull"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "robotic-2",
+      "category": "Robotic Welding System",
+      "name": "PAP Robotic Welding System",
+      "badge": "",
+      "description": "High-performance robotic welding system for complex geometries...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609992696/FZ/YB/VG/106518927/download-2026-05-22t134419-997-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609992696/FZ/YB/VG/106518927/download-2026-05-22t134419-997-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609992698/BX/KL/SF/106518927/download-2026-05-22t134432-664-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609992701/LP/AR/ES/106518927/download-2026-05-22t134436-757-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Robot axes", "value": "6 axis"},
+        {"label": "Welding process", "value": "MIG MAG"},
+        {"label": "Payload", "value": "12 kg"},
+        {"label": "Reach", "value": "1800 mm"},
+        {"label": "Controller brand", "value": "Yaskawa"},
+        {"label": "Positioner axis", "value": "1 axis"},
+        {"label": "System layout", "value": "Twin station"},
+        {"label": "Wire feeder type", "value": "Push pull"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "robotic-3",
+      "category": "Robotic Welding System",
+      "name": "PAP Axle Bracket Welding Machine",
+      "badge": "",
+      "description": "Specialized axle bracket welding machine...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754320/AM/OV/QC/106518927/axle-bracket-welding-machine-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611754320/AM/OV/QC/106518927/axle-bracket-welding-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611754323/OA/UD/GO/106518927/axle-bracket-welding-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585684642/AE/KA/AP/106518927/beam-welding-line-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Robot axes", "value": "6 axis"},
+        {"label": "Welding process", "value": "MIG MAG, Plasma, Spot weld, Laser weld, TIG"},
+        {"label": "Payload", "value": "6 kg"},
+        {"label": "Reach", "value": "1400 mm"},
+        {"label": "Controller brand", "value": "ABB"},
+        {"label": "Positioner axis", "value": "No positioner"},
+        {"label": "System layout", "value": "Fixed table"},
+        {"label": "Wire feeder type", "value": "Push type"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "cnc-1",
+      "category": "CNC Machines",
+      "name": "CNC Flame Cutting Machine",
+      "badge": "Precision",
+      "description": "A CNC flame cutting machine (also known as an oxy-fuel CNC cutter) is an automated industrial system that uses a combination of fuel gas and pure oxygen to slice through thick carbon steel...",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592609021/KS/JD/GH/106518927/image-500x500.jpeg",
+      "gallery": [
+        "https://5.imimg.com/data5/WA_9696/Default/2026/3/592609021/KS/JD/GH/106518927/image-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611756734/YV/XI/UU/106518927/cnc-flame-cutting-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611756738/KS/CA/OS/106518927/cnc-flame-cutting-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Cutting Process", "value": "Plasma"},
+        {"label": "Cutting Area", "value": "1300×2500 mm"},
+        {"label": "Supported Material", "value": "Mild Steel, Stainless Steel, Aluminium"},
+        {"label": "Max Cutting Thickness", "value": "6 mm"},
+        {"label": "Automation Level", "value": "Semi Automatic"},
+        {"label": "CNC Controller", "value": "Hypertherm"},
+        {"label": "Drive Type", "value": "Gantry"},
+        {"label": "Application", "value": "Profile Cutting, Sheet Cutting"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "cnc-2",
+      "category": "CNC Machines",
+      "name": "CNC Strip Cutting Machine",
+      "badge": "",
+      "description": "A CNC strip cutting machine is an automated heavy-duty industrial fabrication system engineered to slice large raw steel plates into multiple uniform, straight, long parallel strips simultaneously...",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592609047/BP/EM/LJ/106518927/image-500x500.jpeg",
+      "gallery": [
+        "https://5.imimg.com/data5/WA_9696/Default/2026/3/592609047/BP/EM/LJ/106518927/image-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609979706/IQ/RA/NC/106518927/cnc-strip-cutting-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609979711/UU/OZ/NA/106518927/cnc-strip-cutting-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609979713/IW/YO/IH/106518927/cnc-strip-cutting-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Cutting Process", "value": "Laser"},
+        {"label": "Cutting Area", "value": "1300×2500 mm"},
+        {"label": "Supported Material", "value": "Mild Steel, Aluminium, Stainless Steel"},
+        {"label": "Max Cutting Thickness", "value": "10 mm"},
+        {"label": "Automation Level", "value": "Semi Automatic"},
+        {"label": "CNC Controller", "value": "Hypertherm"},
+        {"label": "Drive Type", "value": "Gantry"},
+        {"label": "Application", "value": "Sheet Cutting"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "cnc-3",
+      "category": "CNC Machines",
+      "name": "Heavy Duty Industrial CNC Gantry Milling Machine",
+      "badge": "",
+      "description": "This high-precision CNC gantry milling machine is engineered for heavy-duty industrial metal fabrication and machining...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/624529811/JO/OP/OB/106518927/h-beam-drilling-machine-500x500.jpeg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/7/624529811/JO/OP/OB/106518927/h-beam-drilling-machine-500x500.jpeg"
+      ],
+      "specs": [],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "robotic-cell-1",
+      "category": "Robotic Welding Cell",
+      "name": "Robotic Welding Cell",
+      "badge": "Turnkey",
+      "description": "A robotic welding cell is a completely integrated, self-contained automated manufacturing workspace designed to execute high-speed, repeatable welds...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585702944/CZ/DM/ZM/106518927/robotic-welding-cell-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585702944/CZ/DM/ZM/106518927/robotic-welding-cell-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611751836/SC/QW/EW/106518927/robotic-welding-cell-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611751838/AH/WZ/TP/106518927/robotic-welding-cell-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Cell Type", "value": "Single Station"},
+        {"label": "Welding Process", "value": "MIG MAG"},
+        {"label": "Robot Brand", "value": "Fanuc"},
+        {"label": "Number of Robots", "value": "1 Robot"},
+        {"label": "Positioners", "value": "Turntable"},
+        {"label": "Part Weight Capacity", "value": "Up to 250 kg"},
+        {"label": "Safety Level", "value": "Fenced Cell"},
+        {"label": "Control System", "value": "PLC Based"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "robotic-cell-2",
+      "category": "Robotic Welding Cell",
+      "name": "Robotic MIG Welding Cell",
+      "badge": "",
+      "description": "A robotic MIG welding cell is a specialized, automated workspace designed to execute high-speed Gas Metal Arc Welding (GMAW/MIG) and Flux-Cored Arc Welding (FCAW)...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585699275/GT/QF/PD/106518927/electric-gas-stove-500x500.jpeg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585699275/GT/QF/PD/106518927/electric-gas-stove-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611751073/VI/VQ/PJ/106518927/robotic-mig-welding-cell-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611751077/DB/GO/UU/106518927/robotic-mig-welding-cell-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Cell Type", "value": "Single Station"},
+        {"label": "Welding Process", "value": "MIG MAG"},
+        {"label": "Robot Brand", "value": "Fanuc"},
+        {"label": "Number of Robots", "value": "1 Robot"},
+        {"label": "Positioners", "value": "Drop Center, Head Tail Stock, Tilting Table, Skyhook, Turntable"},
+        {"label": "Part Weight Capacity", "value": "Up to 250 kg"},
+        {"label": "Safety Level", "value": "Fenced Cell"},
+        {"label": "Control System", "value": "PLC Based"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "robotic-auto-1",
+      "category": "Robotic Welding Automation",
+      "name": "PAP Heavy Fabrication Robotic Welding System",
+      "badge": "",
+      "description": "A heavy fabrication robotic welding system is an advanced, automated manufacturing cell engineered to weld massive, thick-gauge structural components...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585688717/QR/XG/GD/106518927/h-beam-assembly-machine-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585688717/QR/XG/GD/106518927/h-beam-assembly-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611753776/IU/GI/BJ/106518927/heavy-fabrication-robotic-welding-system-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611753781/JV/ON/TS/106518927/heavy-fabrication-robotic-welding-system-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Robot axes", "value": "6 axis"},
+        {"label": "Welding process", "value": "MIG MAG"},
+        {"label": "Payload", "value": "6 kg"},
+        {"label": "Reach", "value": "1400 mm"},
+        {"label": "Controller brand", "value": "ABB"},
+        {"label": "Positioner axis", "value": "1 axis"},
+        {"label": "System layout", "value": "Fixed table"},
+        {"label": "Wire feeder type", "value": "Push type"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "robotic-auto-2",
+      "category": "Robotic Welding Automation",
+      "name": "PAP Robotic Excavator Boom Welding Machine",
+      "badge": "",
+      "description": "The Primo Robotic Excavator Boom Welding Machine is a highly automated turnkey industrial workstation...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610155069/LS/IH/ZF/106518927/download-2026-05-22t190338-910-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610155069/LS/IH/ZF/106518927/download-2026-05-22t190338-910-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610155070/YX/KD/OU/106518927/images-2026-05-22t190348-243-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610155071/KL/DV/MV/106518927/download-2026-05-22t190426-198-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Robot axes", "value": "6 axis"},
+        {"label": "Welding process", "value": "MIG MAG"},
+        {"label": "Payload", "value": "6 kg"},
+        {"label": "Reach", "value": "1600 mm"},
+        {"label": "Controller brand", "value": "ABB"},
+        {"label": "Positioner axis", "value": "No positioner"},
+        {"label": "System layout", "value": "Fixed table"},
+        {"label": "Wire feeder type", "value": "Push type"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "robotic-auto-3",
+      "category": "Robotic Welding Automation",
+      "name": "Robotic Diesel Tank Welding",
+      "badge": "",
+      "description": "Robotic diesel tank welding is an automated industrial process used to fabricate heavy-duty fuel cells for trucks, agricultural machinery, generators, and locomotives...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585687738/DC/GO/MZ/106518927/laser-machine-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585687738/DC/GO/MZ/106518927/laser-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611754203/GR/YV/ZP/106518927/robotic-diesel-tank-welding-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611754205/IF/ZF/EV/106518927/robotic-diesel-tank-welding-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Robot axes", "value": "6 axis"},
+        {"label": "Payload", "value": "6 kg"},
+        {"label": "Welding process", "value": "MIG MAG"},
+        {"label": "Reach", "value": "1400 mm"},
+        {"label": "Brand", "value": "ABB"},
+        {"label": "Mounting", "value": "Floor, Track mounted"},
+        {"label": "Protection class", "value": "IP54"},
+        {"label": "Controller model", "value": "R30iB"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "peb-1",
+      "category": "PEB Beam Welding Automation",
+      "name": "PEB Beam Welding Machine",
+      "badge": "PEB Specialist",
+      "description": "A PEB (Pre-Engineered Building) beam welding machine is a specialized, high-efficiency fabrication system engineered specifically to assemble and weld variable cross-section steel profiles...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157259/LI/YO/OT/106518927/download-2026-05-22t191322-040-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157259/LI/YO/OT/106518927/download-2026-05-22t191322-040-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157260/TO/JF/BO/106518927/download-2026-05-22t191326-126-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157261/YW/RB/DW/106518927/download-2026-05-22t191330-367-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Welding Head", "value": "Single Head"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"},
+        {"label": "Line Type", "value": "H Beam Line"},
+        {"label": "Conveyor Length", "value": "15 m"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "peb-2",
+      "category": "PEB Beam Welding Automation",
+      "name": "PAP Automatic Beam Welding Line",
+      "badge": "",
+      "description": "An automatic beam welding line integrates individual fabrication machines into a single, continuous automated loop to manufacture structural steel H-beams, I-beams, or box girders...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157869/BY/NU/TS/106518927/download-2026-05-22t191647-955-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157869/BY/NU/TS/106518927/download-2026-05-22t191647-955-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157870/VL/WA/XI/106518927/download-2026-05-22t191655-258-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157871/BY/VI/CX/106518927/download-2026-05-22t191659-816-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Welding Head", "value": "Single Head"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"},
+        {"label": "Line Type", "value": "H Beam Line"},
+        {"label": "Conveyor Length", "value": "15 m"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "drilling-1",
+      "category": "CNC Plate Drilling Machine",
+      "name": "CNC Plate Drilling Machine",
+      "badge": "",
+      "description": "A CNC plate drilling machine is a specialized, automated industrial tool designed to drill, tap, countersink, and mill structural steel plates...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585693209/VO/CB/YW/106518927/soldering-machines-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/2/585693209/VO/CB/YW/106518927/soldering-machines-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611747063/KR/OM/BS/106518927/cnc-plate-drilling-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611747116/PL/CI/HD/106518927/cnc-plate-drilling-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Max Plate Size", "value": "1000×1000 mm"},
+        {"label": "Max Drill Diameter", "value": "Up to 25 mm"},
+        {"label": "Axis Count", "value": "2 Axis"},
+        {"label": "Controller Brand", "value": "Fanuc"},
+        {"label": "Spindle Speed", "value": "Up to 3000 rpm"},
+        {"label": "Clamping Type", "value": "Hydraulic"},
+        {"label": "Tool Changer", "value": "Without ATC"},
+        {"label": "Coolant System", "value": "Flood Coolant"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "drilling-2",
+      "category": "CNC Plate Drilling Machine",
+      "name": "Heat Exchanger Tube Sheet Drilling Machine",
+      "badge": "",
+      "description": "A CNC Tube Sheet Drilling Machine is a specialized gantry-style or deep-hole machining center engineered to drill hundreds to thousands of high-precision holes in thick metal plates...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757831/IT/AV/BV/106518927/heat-exchanger-tube-sheet-drilling-machine-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611757831/IT/AV/BV/106518927/heat-exchanger-tube-sheet-drilling-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611757832/DH/JW/YB/106518927/heat-exchanger-tube-sheet-drilling-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611757833/MK/EW/VT/106518927/heat-exchanger-tube-sheet-drilling-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Tube Sheet Thickness", "value": "Up to 40 mm"},
+        {"label": "Tube Hole Diameter", "value": "Up to 12 mm"},
+        {"label": "Tube Pattern", "value": "Triangular"},
+        {"label": "Tube Sheet Material", "value": "Carbon Steel"},
+        {"label": "Positional Tolerance", "value": "Standard"},
+        {"label": "Machine Type", "value": "CNC Drill"},
+        {"label": "Hole Finish", "value": "Drilled"},
+        {"label": "Application", "value": "Heat Exchanger"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "drilling-3",
+      "category": "CNC Plate Drilling Machine",
+      "name": "End Flange Drilling Machine",
+      "badge": "",
+      "description": "End Flange Drilling Machine",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610158289/TQ/OI/EL/106518927/download-2026-05-22t191831-404-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610158289/TQ/OI/EL/106518927/download-2026-05-22t191831-404-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610158291/ZJ/EB/BH/106518927/download-2026-05-22t191838-842-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610158294/WR/LQ/OD/106518927/download-2026-05-22t191845-372-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Axis Count", "value": "2 Axis"},
+        {"label": "Max Drill Diameter", "value": "Up to 10 mm"},
+        {"label": "Table Size", "value": "500×300 mm"},
+        {"label": "Spindle Speed", "value": "Up to 3000 rpm"},
+        {"label": "Spindle Taper", "value": "BT30"},
+        {"label": "Controller Brand", "value": "Fanuc"},
+        {"label": "Tool Changer", "value": "Without ATC"},
+        {"label": "Coolant System", "value": "Flood Coolant"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "beam-line-1",
+      "category": "Beam Welding Line",
+      "name": "PAP Beam Welding Line",
+      "badge": "Complete Line",
+      "description": "A beam welding line is a fully integrated, high-capacity industrial production system designed to manufacture structural steel H-beams, I-beams, and tapered girders from raw steel plates...",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608917/FF/RA/IN/106518927/image-500x500.jpeg",
+      "gallery": [
+        "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608917/FF/RA/IN/106518927/image-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611754978/QX/BN/NV/106518927/beam-welding-line-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611754979/CF/NC/NY/106518927/beam-welding-line-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Welding Head", "value": "Triple Head"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"},
+        {"label": "Line Type", "value": "H Beam Line"},
+        {"label": "Conveyor Length", "value": "15 m"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "beam-line-2",
+      "category": "Beam Welding Line",
+      "name": "PAP Heavy Structural Plate Girder Welding Machine",
+      "badge": "",
+      "description": "A heavy structural plate girder welding machine is an industrial fabrication system designed to automate the deep-penetration seam welding of massive, thick steel plates into heavy-duty structural girders...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610156918/QT/DR/RG/106518927/download-2026-05-22t190522-713-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610156918/QT/DR/RG/106518927/download-2026-05-22t190522-713-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610156919/RC/HJ/GG/106518927/download-2026-05-22t190526-883-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610156920/EL/UO/NX/106518927/download-2026-05-22t190532-535-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Welding Head", "value": "Double Head"},
+        {"label": "Flange Thickness", "value": "8–20 mm"},
+        {"label": "Web Thickness", "value": "6–16 mm"},
+        {"label": "Line Type", "value": "H Beam Line"},
+        {"label": "Conveyor Length", "value": "15 m"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "beam-line-3",
+      "category": "Beam Welding Line",
+      "name": "PAP Heavy I Beam Fabrication Line",
+      "badge": "",
+      "description": "PAP Heavy I Beam Fabrication Line",
+      "image": "https://via.placeholder.com/500x500?text=No+Image",
+      "gallery": ["https://via.placeholder.com/500x500?text=No+Image"],
+      "specs": [
+        {"label": "Conveyor Type", "value": "I Beam"},
+        {"label": "Welding Process", "value": "SAW + MIG"},
+        {"label": "Plant Type", "value": "Conveyorised"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Automation Grade", "value": "Semi Automatic"},
+        {"label": "Line Speed", "value": "2 m/min"},
+        {"label": "Booth Type", "value": "Cartridge Filter"},
+        {"label": "Max Part Size", "value": "3000×1200×1200 mm"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "beam-line-4",
+      "category": "Beam Welding Line",
+      "name": "Heavy Structural Plate Girder Welding Machine",
+      "badge": "",
+      "description": "Heavy Structural Plate Girder Welding Machine",
+      "image": "https://via.placeholder.com/500x500?text=No+Image",
+      "gallery": ["https://via.placeholder.com/500x500?text=No+Image"],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "beam-line-5",
+      "category": "Beam Welding Line",
+      "name": "H Beam Welding Production Line",
+      "badge": "",
+      "description": "H Beam Welding Production Line",
+      "image": "https://via.placeholder.com/500x500?text=No+Image",
+      "gallery": ["https://via.placeholder.com/500x500?text=No+Image"],
+      "specs": [
+        {"label": "Automation Grade", "value": "Semi Automatic"},
+        {"label": "Country of Origin", "value": "India"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "beam-line-6",
+      "category": "Beam Welding Line",
+      "name": "PAP Beam Welding Line",
+      "badge": "",
+      "description": "PAP Beam Welding Line",
+      "image": "https://via.placeholder.com/500x500?text=No+Image",
+      "gallery": ["https://via.placeholder.com/500x500?text=No+Image"],
+      "specs": [
+        {"label": "Automation Grade", "value": "Automatic"},
+        {"label": "Welding Process", "value": "SAW"},
+        {"label": "Max Beam Height", "value": "800 mm"},
+        {"label": "Welding Head", "value": "Single Head"},
+        {"label": "Line Type", "value": "H Beam Line"},
+        {"label": "Country of Origin", "value": "India"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "new-1",
+      "category": "New Items",
+      "name": "PAP Laser Cutting Machines",
+      "badge": "",
+      "description": "Laser cutting machines are highly precise thermal fabrication systems that use a concentrated, high-power laser beam to melt, burn, or vaporize material along a programmed path...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609989976/YE/MI/UD/106518927/download-2026-05-22t133639-513-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609989976/YE/MI/UD/106518927/download-2026-05-22t133639-513-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609989978/LT/VX/CK/106518927/download-2026-05-22t133644-529-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611745217/EQ/AW/XD/106518927/laser-cutting-machines-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Machine Type", "value": "Fiber Laser"},
+        {"label": "Working Area", "value": "300x200 mm"},
+        {"label": "Laser Power", "value": "40 W"},
+        {"label": "Cutting Material", "value": "Aluminium, MDF, SS, MS"},
+        {"label": "Automation Level", "value": "Automatic"},
+        {"label": "Cooling Type", "value": "Water Cooled"},
+        {"label": "Table Type", "value": "Flat Bed"},
+        {"label": "Country Of Origin", "value": "China"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "new-2",
+      "category": "New Items",
+      "name": "Welding Positioner Rotator",
+      "badge": "",
+      "description": "A welding positioner rotator is a mechanical device used to hold, tilt, and spin a workpiece 360 degrees, allowing a welder to remain in a flat, comfortable position while executing circumferential or complex welds...",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608989/NF/EA/TZ/106518927/image-500x500.jpeg",
+      "gallery": [
+        "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608989/NF/EA/TZ/106518927/image-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611757201/AK/QC/LN/106518927/welding-rotator-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/611757205/EQ/GQ/RS/106518927/welding-rotator-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Rotator Type", "value": "Self Aligning"},
+        {"label": "Load Capacity", "value": "1–5 Ton"},
+        {"label": "Adjustment", "value": "Bolt Adjust"},
+        {"label": "Wheel Material", "value": "Rubber"},
+        {"label": "Drive Type", "value": "AC Motor"},
+        {"label": "Speed Range", "value": "0.1–1 m/min"},
+        {"label": "Control Type", "value": "Pendant Control"},
+        {"label": "Tilt Adjustment", "value": "No Tilt"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "new-3",
+      "category": "New Items",
+      "name": "Industrial Robotic Arm",
+      "badge": "",
+      "description": "An industrial robotic arm is a programmable, multi-axis mechanical manipulator designed to execute highly repetitive, precise, and dangerous tasks in manufacturing environments...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609991669/CC/XX/RK/106518927/download-2026-05-22t134004-676-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609991669/CC/XX/RK/106518927/download-2026-05-22t134004-676-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609991673/YT/UM/IL/106518927/download-2026-05-22t134009-282-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609991676/PS/KL/XU/106518927/download-2026-05-22t134116-850-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Axis Count", "value": "3 Axis"},
+        {"label": "Payload Capacity", "value": "Upto 2 kg"},
+        {"label": "Reach", "value": "Upto 500 mm"},
+        {"label": "Application", "value": "Pick And Place"},
+        {"label": "Mounting", "value": "Table Top"},
+        {"label": "Robot Type", "value": "Industrial"},
+        {"label": "Drive Type", "value": "Servo Motor"},
+        {"label": "Repeatability", "value": "±0.1 mm"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "new-4",
+      "category": "New Items",
+      "name": "CNC Plasma Cutting Machine",
+      "badge": "",
+      "description": "CNC plasma cutting machines use a computer-controlled, high-velocity jet of ionized gas to slice through electrically conductive metals like carbon steel, stainless steel, and aluminum...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157633/DV/OI/LC/106518927/download-2026-05-22t191508-967-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157633/DV/OI/LC/106518927/download-2026-05-22t191508-967-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157635/NM/SZ/NS/106518927/download-2026-05-22t191535-640-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/610157636/RO/FJ/NS/106518927/download-2026-05-22t191541-743-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Table size", "value": "1300x2500 mm"},
+        {"label": "Plasma power", "value": "63 A"},
+        {"label": "Max mild steel cut", "value": "12 mm"},
+        {"label": "Cutting speed", "value": "2000 mm/min"},
+        {"label": "CNC controller", "value": "Hypertherm"},
+        {"label": "Torch height control", "value": "Automatic THC"},
+        {"label": "Drive type", "value": "Servo drive"},
+        {"label": "Gas type", "value": "Air"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "new-5",
+      "category": "New Items",
+      "name": "Structural Steel H Beam",
+      "badge": "",
+      "description": "Structural steel H-beams—broadly classified under wide-flange beams (W-shapes)—are load-bearing rolled or fabricated steel members featuring a profile that resembles a capital letter 'H'...",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608887/WG/VO/QE/106518927/image-500x500.jpeg",
+      "gallery": [
+        "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608887/WG/VO/QE/106518927/image-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609980105/RU/FB/KJ/106518927/structural-steel-h-beam-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609980112/QU/JO/OJ/106518927/structural-steel-h-beam-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Length", "value": "6 m"},
+        {"label": "Material Type", "value": "Stainless Steel"},
+        {"label": "Brand", "value": "Rolling"},
+        {"label": "Dimension", "value": "150 x 75 mm"},
+        {"label": "Thickness", "value": "6 mm"},
+        {"label": "Grade", "value": "E350"},
+        {"label": "Weight", "value": "37.3 kg/m"},
+        {"label": "Color", "value": "Black"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "new-6",
+      "category": "New Items",
+      "name": "Axle Robotic Welding Machine",
+      "badge": "",
+      "description": "An axle robotic welding machine is an advanced, automated workstation configured to perform high-precision, heavy-duty seam welds on automotive, trailer, truck, and railway axles...",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609981769/YP/NW/GW/106518927/axle-robotic-welding-machine-500x500.jpg",
+      "gallery": [
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609981769/YP/NW/GW/106518927/axle-robotic-welding-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609981771/FU/CC/ZW/106518927/axle-robotic-welding-machine-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2026/5/609981775/QY/ND/WH/106518927/axle-robotic-welding-machine-500x500.jpg"
+      ],
+      "specs": [
+        {"label": "Robot axes", "value": "6 axis"},
+        {"label": "Payload", "value": "50 kg"},
+        {"label": "Welding process", "value": "TIG, MIG MAG, Spot weld, Laser weld"},
+        {"label": "Reach", "value": "1400 mm"},
+        {"label": "Mounting", "value": "Floor"},
+        {"label": "Protection class", "value": "IP54"},
+        {"label": "Controller model", "value": "R30iB"}
+      ],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "new-7",
+      "category": "New Items",
+      "name": "H Beam Flipping & Transfer Unit",
+      "badge": "",
+      "description": "H Beam Flipping & Transfer Unit",
+      "image": "https://via.placeholder.com/500x500?text=No+Image",
+      "gallery": ["https://via.placeholder.com/500x500?text=No+Image"],
+      "specs": [],
+      "features": [],
+      "applications": []
+    },
+    {
+      "id": "new-8",
+      "category": "New Items",
+      "name": "CNC H Beam Drilling Machine",
+      "badge": "",
+      "description": "CNC H Beam Drilling Machine",
+      "image": "https://via.placeholder.com/500x500?text=No+Image",
+      "gallery": ["https://via.placeholder.com/500x500?text=No+Image"],
+      "specs": [],
+      "features": [],
+      "applications": []
+    }
+  ]
+}

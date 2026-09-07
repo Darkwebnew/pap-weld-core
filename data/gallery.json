@@ -1,0 +1,668 @@
+{
+  "images": [
+    {
+      "id": "g-1",
+      "title": "PTW - Pull Thru Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585704480/VQ/DI/VJ/106518927/ptw-pull-thru-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585704480/VQ/DI/VJ/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+      "description": "Automatic pull-through welding system for continuous H-Beam fabrication."
+    },
+    {
+      "id": "g-2",
+      "title": "PTW - Pull Thru Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611753209/ML/RU/GF/106518927/ptw-pull-thru-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611753209/ML/RU/GF/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+      "description": "Automatic pull-through welding system for continuous H-Beam fabrication."
+    },
+    {
+      "id": "g-3",
+      "title": "PTW - Pull Thru Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611753213/SR/CW/OV/106518927/ptw-pull-thru-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611753213/SR/CW/OV/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+      "description": "Automatic pull-through welding system for continuous H-Beam fabrication."
+    },
+    {
+      "id": "g-4",
+      "title": "PTW - Pull Thru Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585696387/NP/OE/HS/106518927/laser-beam-expander-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585696387/NP/OE/HS/106518927/laser-beam-expander-500x500.jpg",
+      "description": "Laser beam expander for precision welding applications."
+    },
+    {
+      "id": "g-5",
+      "title": "PTW - Pull Thru Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611750120/TT/IL/IV/106518927/ptw-pull-thru-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611750120/TT/IL/IV/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+      "description": "Automatic pull-through welding system for continuous H-Beam fabrication."
+    },
+    {
+      "id": "g-6",
+      "title": "PTW - Pull Thru Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611750125/FE/NO/QM/106518927/ptw-pull-thru-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611750125/FE/NO/QM/106518927/ptw-pull-thru-welding-machine-500x500.jpg",
+      "description": "Automatic pull-through welding system for continuous H-Beam fabrication."
+    },
+    {
+      "id": "g-7",
+      "title": "Railway H Beam Fabrication Line For Bridge Beam Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585697817/BY/UY/DK/106518927/infrared-light-beam-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585697817/BY/UY/DK/106518927/infrared-light-beam-500x500.jpg",
+      "description": "Infrared light beam system for precision welding applications."
+    },
+    {
+      "id": "g-8",
+      "title": "Railway H Beam Fabrication Line For Bridge Beam Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611747977/PE/PZ/OC/106518927/railway-h-beam-fabrication-line-for-bridge-beam-welding-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611747977/PE/PZ/OC/106518927/railway-h-beam-fabrication-line-for-bridge-beam-welding-500x500.jpg",
+      "description": "Heavy-duty fabrication line for railway bridge beam welding."
+    },
+    {
+      "id": "g-9",
+      "title": "Railway H Beam Fabrication Line For Bridge Beam Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611747979/AE/BM/YA/106518927/railway-h-beam-fabrication-line-for-bridge-beam-welding-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611747979/AE/BM/YA/106518927/railway-h-beam-fabrication-line-for-bridge-beam-welding-500x500.jpg",
+      "description": "Heavy-duty fabrication line for railway bridge beam welding."
+    },
+    {
+      "id": "g-10",
+      "title": "H Beam Tack Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608941/LY/CJ/YU/106518927/image-1000x1000.jpeg",
+      "thumbnail": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608941/LY/CJ/YU/106518927/image-500x500.jpeg",
+      "description": "Specialized tack welding machine for H-Beam assembly."
+    },
+    {
+      "id": "g-11",
+      "title": "H Beam Tack Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611755510/EY/KU/VD/106518927/h-beam-tack-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611755510/EY/KU/VD/106518927/h-beam-tack-welding-machine-500x500.jpg",
+      "description": "Specialized tack welding machine for H-Beam assembly."
+    },
+    {
+      "id": "g-12",
+      "title": "H Beam Tack Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611755511/IN/AX/CK/106518927/h-beam-tack-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611755511/IN/AX/CK/106518927/h-beam-tack-welding-machine-500x500.jpg",
+      "description": "Specialized tack welding machine for H-Beam assembly."
+    },
+    {
+      "id": "g-13",
+      "title": "H Beam Flipping Device",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585698552/AB/IR/GE/106518927/electron-beam-welders-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585698552/AB/IR/GE/106518927/electron-beam-welders-500x500.jpg",
+      "description": "Heavy-duty H-beam flipping and positioning device for fabrication lines."
+    },
+    {
+      "id": "g-14",
+      "title": "H Beam Flipping Device",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611756297/RE/WW/JK/106518927/h-beam-flipping-device-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611756297/RE/WW/JK/106518927/h-beam-flipping-device-500x500.jpg",
+      "description": "Heavy-duty H-beam flipping and positioning device for fabrication lines."
+    },
+    {
+      "id": "g-15",
+      "title": "H Beam Flipping Device",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611756301/HX/UT/DS/106518927/h-beam-flipping-device-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611756301/HX/UT/DS/106518927/h-beam-flipping-device-500x500.jpg",
+      "description": "Heavy-duty H-beam flipping and positioning device for fabrication lines."
+    },
+    {
+      "id": "g-16",
+      "title": "PAP Post Beam Robotic Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609988427/JC/OM/LF/106518927/download-2026-05-22t132257-855-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609988427/JC/OM/LF/106518927/download-2026-05-22t132257-855-500x500.jpg",
+      "description": "Robotic welding system for post beam fabrication."
+    },
+    {
+      "id": "g-17",
+      "title": "PAP Post Beam Robotic Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609988428/QX/ZW/VP/106518927/download-2026-05-22t132315-689-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609988428/QX/ZW/VP/106518927/download-2026-05-22t132315-689-500x500.jpg",
+      "description": "Robotic welding system for post beam fabrication."
+    },
+    {
+      "id": "g-18",
+      "title": "PAP Post Beam Robotic Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609988430/JX/EO/RX/106518927/images-2026-05-22t132509-791-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609988430/JX/EO/RX/106518927/images-2026-05-22t132509-791-500x500.jpg",
+      "description": "Robotic welding system for post beam fabrication."
+    },
+    {
+      "id": "g-19",
+      "title": "PAP Robotic Welding System",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609992696/FZ/YB/VG/106518927/download-2026-05-22t134419-997-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609992696/FZ/YB/VG/106518927/download-2026-05-22t134419-997-500x500.jpg",
+      "description": "High-performance robotic welding system for complex geometries."
+    },
+    {
+      "id": "g-20",
+      "title": "PAP Robotic Welding System",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609992698/BX/KL/SF/106518927/download-2026-05-22t134432-664-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609992698/BX/KL/SF/106518927/download-2026-05-22t134432-664-500x500.jpg",
+      "description": "High-performance robotic welding system for complex geometries."
+    },
+    {
+      "id": "g-21",
+      "title": "PAP Robotic Welding System",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609992701/LP/AR/ES/106518927/download-2026-05-22t134436-757-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609992701/LP/AR/ES/106518927/download-2026-05-22t134436-757-500x500.jpg",
+      "description": "High-performance robotic welding system for complex geometries."
+    },
+    {
+      "id": "g-22",
+      "title": "PAP Axle Bracket Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754320/AM/OV/QC/106518927/axle-bracket-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754320/AM/OV/QC/106518927/axle-bracket-welding-machine-500x500.jpg",
+      "description": "Specialized welding machine for axle bracket fabrication."
+    },
+    {
+      "id": "g-23",
+      "title": "PAP Axle Bracket Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754323/OA/UD/GO/106518927/axle-bracket-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754323/OA/UD/GO/106518927/axle-bracket-welding-machine-500x500.jpg",
+      "description": "Specialized welding machine for axle bracket fabrication."
+    },
+    {
+      "id": "g-24",
+      "title": "PAP Axle Bracket Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/8/639635449/EU/CW/XT/106518927/pap-axle-bracket-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/8/639635449/EU/CW/XT/106518927/pap-axle-bracket-welding-machine-500x500.jpg",
+      "description": "Specialized welding machine for axle bracket fabrication."
+    },
+    {
+      "id": "g-25",
+      "title": "CNC Flame Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592609021/KS/JD/GH/106518927/image-1000x1000.jpeg",
+      "thumbnail": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592609021/KS/JD/GH/106518927/image-500x500.jpeg",
+      "description": "Automated CNC flame cutting machine for precision metal cutting."
+    },
+    {
+      "id": "g-26",
+      "title": "CNC Flame Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611756734/YV/XI/UU/106518927/cnc-flame-cutting-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611756734/YV/XI/UU/106518927/cnc-flame-cutting-machine-500x500.jpg",
+      "description": "Automated CNC flame cutting machine for precision metal cutting."
+    },
+    {
+      "id": "g-27",
+      "title": "CNC Flame Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611756738/KS/CA/OS/106518927/cnc-flame-cutting-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611756738/KS/CA/OS/106518927/cnc-flame-cutting-machine-500x500.jpg",
+      "description": "Automated CNC flame cutting machine for precision metal cutting."
+    },
+    {
+      "id": "g-28",
+      "title": "Heavy Duty Industrial CNC Gantry Milling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/624529811/JO/OP/OB/106518927/h-beam-drilling-machine-1000x1000.jpeg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/7/624529811/JO/OP/OB/106518927/h-beam-drilling-machine-500x500.jpeg",
+      "description": "High-precision CNC gantry milling machine for heavy-duty industrial applications."
+    },
+    {
+      "id": "g-29",
+      "title": "CNC Strip Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592609047/BP/EM/LJ/106518927/image-1000x1000.jpeg",
+      "thumbnail": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592609047/BP/EM/LJ/106518927/image-500x500.jpeg",
+      "description": "Automated CNC strip cutting machine for precision metal cutting."
+    },
+    {
+      "id": "g-30",
+      "title": "CNC Strip Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609979706/IQ/RA/NC/106518927/cnc-strip-cutting-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609979706/IQ/RA/NC/106518927/cnc-strip-cutting-machine-500x500.jpg",
+      "description": "Automated CNC strip cutting machine for precision metal cutting."
+    },
+    {
+      "id": "g-31",
+      "title": "CNC Strip Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609979711/UU/OZ/NA/106518927/cnc-strip-cutting-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609979711/UU/OZ/NA/106518927/cnc-strip-cutting-machine-500x500.jpg",
+      "description": "Automated CNC strip cutting machine for precision metal cutting."
+    },
+    {
+      "id": "g-32",
+      "title": "CNC Strip Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609979713/IW/YO/IH/106518927/cnc-strip-cutting-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609979713/IW/YO/IH/106518927/cnc-strip-cutting-machine-500x500.jpg",
+      "description": "Automated CNC strip cutting machine for precision metal cutting."
+    },
+    {
+      "id": "g-33",
+      "title": "Robotic MIG Welding Cell",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585699275/GT/QF/PD/106518927/electric-gas-stove-1000x1000.jpeg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585699275/GT/QF/PD/106518927/electric-gas-stove-500x500.jpeg",
+      "description": "Complete robotic MIG welding cell for automated fabrication."
+    },
+    {
+      "id": "g-34",
+      "title": "Robotic MIG Welding Cell",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611751073/VI/VQ/PJ/106518927/robotic-mig-welding-cell-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611751073/VI/VQ/PJ/106518927/robotic-mig-welding-cell-500x500.jpg",
+      "description": "Complete robotic MIG welding cell for automated fabrication."
+    },
+    {
+      "id": "g-35",
+      "title": "Robotic MIG Welding Cell",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611751077/DB/GO/UU/106518927/robotic-mig-welding-cell-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611751077/DB/GO/UU/106518927/robotic-mig-welding-cell-500x500.jpg",
+      "description": "Complete robotic MIG welding cell for automated fabrication."
+    },
+    {
+      "id": "g-36",
+      "title": "Robotic Welding Cell",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585702944/CZ/DM/ZM/106518927/robotic-welding-cell-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585702944/CZ/DM/ZM/106518927/robotic-welding-cell-500x500.jpg",
+      "description": "Complete robotic welding cell for automated fabrication."
+    },
+    {
+      "id": "g-37",
+      "title": "Robotic Welding Cell",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611751836/SC/QW/EW/106518927/robotic-welding-cell-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611751836/SC/QW/EW/106518927/robotic-welding-cell-500x500.jpg",
+      "description": "Complete robotic welding cell for automated fabrication."
+    },
+    {
+      "id": "g-38",
+      "title": "Robotic Welding Cell",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611751838/AH/WZ/TP/106518927/robotic-welding-cell-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611751838/AH/WZ/TP/106518927/robotic-welding-cell-500x500.jpg",
+      "description": "Complete robotic welding cell for automated fabrication."
+    },
+    {
+      "id": "g-39",
+      "title": "PAP Heavy Fabrication Robotic Welding System",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585688717/QR/XG/GD/106518927/h-beam-assembly-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585688717/QR/XG/GD/106518927/h-beam-assembly-machine-500x500.jpg",
+      "description": "Advanced robotic welding system for heavy structural fabrication."
+    },
+    {
+      "id": "g-40",
+      "title": "PAP Heavy Fabrication Robotic Welding System",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611753776/IU/GI/BJ/106518927/heavy-fabrication-robotic-welding-system-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611753776/IU/GI/BJ/106518927/heavy-fabrication-robotic-welding-system-500x500.jpg",
+      "description": "Advanced robotic welding system for heavy structural fabrication."
+    },
+    {
+      "id": "g-41",
+      "title": "PAP Heavy Fabrication Robotic Welding System",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611753781/JV/ON/TS/106518927/heavy-fabrication-robotic-welding-system-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611753781/JV/ON/TS/106518927/heavy-fabrication-robotic-welding-system-500x500.jpg",
+      "description": "Advanced robotic welding system for heavy structural fabrication."
+    },
+    {
+      "id": "g-42",
+      "title": "PAP Robotic Excavator Boom Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610155069/LS/IH/ZF/106518927/download-2026-05-22t190338-910-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610155069/LS/IH/ZF/106518927/download-2026-05-22t190338-910-500x500.jpg",
+      "description": "Specialized robotic welding machine for excavator boom fabrication."
+    },
+    {
+      "id": "g-43",
+      "title": "PAP Robotic Excavator Boom Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610155070/YX/KD/OU/106518927/images-2026-05-22t190348-243-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610155070/YX/KD/OU/106518927/images-2026-05-22t190348-243-500x500.jpg",
+      "description": "Specialized robotic welding machine for excavator boom fabrication."
+    },
+    {
+      "id": "g-44",
+      "title": "PAP Robotic Excavator Boom Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610155071/KL/DV/MV/106518927/download-2026-05-22t190426-198-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610155071/KL/DV/MV/106518927/download-2026-05-22t190426-198-500x500.jpg",
+      "description": "Specialized robotic welding machine for excavator boom fabrication."
+    },
+    {
+      "id": "g-45",
+      "title": "Robotic Diesel Tank Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585687738/DC/GO/MZ/106518927/laser-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585687738/DC/GO/MZ/106518927/laser-machine-500x500.jpg",
+      "description": "Specialized robotic welding system for diesel tank fabrication."
+    },
+    {
+      "id": "g-46",
+      "title": "Robotic Diesel Tank Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754203/GR/YV/ZP/106518927/robotic-diesel-tank-welding-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754203/GR/YV/ZP/106518927/robotic-diesel-tank-welding-500x500.jpg",
+      "description": "Specialized robotic welding system for diesel tank fabrication."
+    },
+    {
+      "id": "g-47",
+      "title": "Robotic Diesel Tank Welding",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754205/IF/ZF/EV/106518927/robotic-diesel-tank-welding-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754205/IF/ZF/EV/106518927/robotic-diesel-tank-welding-500x500.jpg",
+      "description": "Specialized robotic welding system for diesel tank fabrication."
+    },
+    {
+      "id": "g-48",
+      "title": "PEB Beam Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157259/LI/YO/OT/106518927/download-2026-05-22t191322-040-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157259/LI/YO/OT/106518927/download-2026-05-22t191322-040-500x500.jpg",
+      "description": "Specialized welding machine for Pre-Engineered Building beam fabrication."
+    },
+    {
+      "id": "g-49",
+      "title": "PEB Beam Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157260/TO/JF/BO/106518927/download-2026-05-22t191326-126-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157260/TO/JF/BO/106518927/download-2026-05-22t191326-126-500x500.jpg",
+      "description": "Specialized welding machine for Pre-Engineered Building beam fabrication."
+    },
+    {
+      "id": "g-50",
+      "title": "PEB Beam Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157261/YW/RB/DW/106518927/download-2026-05-22t191330-367-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157261/YW/RB/DW/106518927/download-2026-05-22t191330-367-500x500.jpg",
+      "description": "Specialized welding machine for Pre-Engineered Building beam fabrication."
+    },
+    {
+      "id": "g-51",
+      "title": "PAP Automatic Beam Welding Line",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157869/BY/NU/TS/106518927/download-2026-05-22t191647-955-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157869/BY/NU/TS/106518927/download-2026-05-22t191647-955-500x500.jpg",
+      "description": "Complete automatic beam welding line for structural steel fabrication."
+    },
+    {
+      "id": "g-52",
+      "title": "PAP Automatic Beam Welding Line",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157870/VL/WA/XI/106518927/download-2026-05-22t191655-258-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157870/VL/WA/XI/106518927/download-2026-05-22t191655-258-500x500.jpg",
+      "description": "Complete automatic beam welding line for structural steel fabrication."
+    },
+    {
+      "id": "g-53",
+      "title": "PAP Automatic Beam Welding Line",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157871/BY/VI/CX/106518927/download-2026-05-22t191659-816-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157871/BY/VI/CX/106518927/download-2026-05-22t191659-816-500x500.jpg",
+      "description": "Complete automatic beam welding line for structural steel fabrication."
+    },
+    {
+      "id": "g-54",
+      "title": "CNC Plate Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/2/585693209/VO/CB/YW/106518927/soldering-machines-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/2/585693209/VO/CB/YW/106518927/soldering-machines-500x500.jpg",
+      "description": "High-precision CNC plate drilling machine for metal fabrication."
+    },
+    {
+      "id": "g-55",
+      "title": "CNC Plate Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611747063/KR/OM/BS/106518927/cnc-plate-drilling-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611747063/KR/OM/BS/106518927/cnc-plate-drilling-machine-500x500.jpg",
+      "description": "High-precision CNC plate drilling machine for metal fabrication."
+    },
+    {
+      "id": "g-56",
+      "title": "CNC Plate Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611747116/PL/CI/HD/106518927/cnc-plate-drilling-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611747116/PL/CI/HD/106518927/cnc-plate-drilling-machine-500x500.jpg",
+      "description": "High-precision CNC plate drilling machine for metal fabrication."
+    },
+    {
+      "id": "g-57",
+      "title": "Heat Exchanger Tube Sheet Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757831/IT/AV/BV/106518927/heat-exchanger-tube-sheet-drilling-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757831/IT/AV/BV/106518927/heat-exchanger-tube-sheet-drilling-machine-500x500.jpg",
+      "description": "Specialized CNC machine for heat exchanger tube sheet drilling."
+    },
+    {
+      "id": "g-58",
+      "title": "Heat Exchanger Tube Sheet Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757832/DH/JW/YB/106518927/heat-exchanger-tube-sheet-drilling-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757832/DH/JW/YB/106518927/heat-exchanger-tube-sheet-drilling-machine-500x500.jpg",
+      "description": "Specialized CNC machine for heat exchanger tube sheet drilling."
+    },
+    {
+      "id": "g-59",
+      "title": "Heat Exchanger Tube Sheet Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757833/MK/EW/VT/106518927/heat-exchanger-tube-sheet-drilling-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757833/MK/EW/VT/106518927/heat-exchanger-tube-sheet-drilling-machine-500x500.jpg",
+      "description": "Specialized CNC machine for heat exchanger tube sheet drilling."
+    },
+    {
+      "id": "g-60",
+      "title": "End Flange Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610158289/TQ/OI/EL/106518927/download-2026-05-22t191831-404-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610158289/TQ/OI/EL/106518927/download-2026-05-22t191831-404-500x500.jpg",
+      "description": "Specialized drilling machine for end flange applications."
+    },
+    {
+      "id": "g-61",
+      "title": "End Flange Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610158291/ZJ/EB/BH/106518927/download-2026-05-22t191838-842-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610158291/ZJ/EB/BH/106518927/download-2026-05-22t191838-842-500x500.jpg",
+      "description": "Specialized drilling machine for end flange applications."
+    },
+    {
+      "id": "g-62",
+      "title": "End Flange Drilling Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610158294/WR/LQ/OD/106518927/download-2026-05-22t191845-372-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610158294/WR/LQ/OD/106518927/download-2026-05-22t191845-372-500x500.jpg",
+      "description": "Specialized drilling machine for end flange applications."
+    },
+    {
+      "id": "g-63",
+      "title": "PAP Beam Welding Line",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608917/FF/RA/IN/106518927/image-1000x1000.jpeg",
+      "thumbnail": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608917/FF/RA/IN/106518927/image-500x500.jpeg",
+      "description": "Complete beam welding line for structural steel fabrication."
+    },
+    {
+      "id": "g-64",
+      "title": "PAP Beam Welding Line",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754978/QX/BN/NV/106518927/beam-welding-line-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754978/QX/BN/NV/106518927/beam-welding-line-500x500.jpg",
+      "description": "Complete beam welding line for structural steel fabrication."
+    },
+    {
+      "id": "g-65",
+      "title": "PAP Beam Welding Line",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754979/CF/NC/NY/106518927/beam-welding-line-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611754979/CF/NC/NY/106518927/beam-welding-line-500x500.jpg",
+      "description": "Complete beam welding line for structural steel fabrication."
+    },
+    {
+      "id": "g-66",
+      "title": "PAP Heavy Structural Plate Girder Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610156918/QT/DR/RG/106518927/download-2026-05-22t190522-713-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610156918/QT/DR/RG/106518927/download-2026-05-22t190522-713-500x500.jpg",
+      "description": "Heavy-duty welding machine for structural plate girder fabrication."
+    },
+    {
+      "id": "g-67",
+      "title": "PAP Heavy Structural Plate Girder Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610156919/RC/HJ/GG/106518927/download-2026-05-22t190526-883-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610156919/RC/HJ/GG/106518927/download-2026-05-22t190526-883-500x500.jpg",
+      "description": "Heavy-duty welding machine for structural plate girder fabrication."
+    },
+    {
+      "id": "g-68",
+      "title": "PAP Heavy Structural Plate Girder Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610156920/EL/UO/NX/106518927/download-2026-05-22t190532-535-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610156920/EL/UO/NX/106518927/download-2026-05-22t190532-535-500x500.jpg",
+      "description": "Heavy-duty welding machine for structural plate girder fabrication."
+    },
+    {
+      "id": "g-69",
+      "title": "PAP Laser Cutting Machines",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609989976/YE/MI/UD/106518927/download-2026-05-22t133639-513-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609989976/YE/MI/UD/106518927/download-2026-05-22t133639-513-500x500.jpg",
+      "description": "High-precision laser cutting machine for metal fabrication."
+    },
+    {
+      "id": "g-70",
+      "title": "PAP Laser Cutting Machines",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609989978/LT/VX/CK/106518927/download-2026-05-22t133644-529-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609989978/LT/VX/CK/106518927/download-2026-05-22t133644-529-500x500.jpg",
+      "description": "High-precision laser cutting machine for metal fabrication."
+    },
+    {
+      "id": "g-71",
+      "title": "PAP Laser Cutting Machines",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611745217/EQ/AW/XD/106518927/laser-cutting-machines-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611745217/EQ/AW/XD/106518927/laser-cutting-machines-500x500.jpg",
+      "description": "High-precision laser cutting machine for metal fabrication."
+    },
+    {
+      "id": "g-72",
+      "title": "Welding Positioner Rotator",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608989/NF/EA/TZ/106518927/image-1000x1000.jpeg",
+      "thumbnail": "https://5.imimg.com/data5/WA_9696/Default/2026/3/592608989/NF/EA/TZ/106518927/image-500x500.jpeg",
+      "description": "Heavy-duty welding positioner rotator for precise component positioning."
+    },
+    {
+      "id": "g-73",
+      "title": "Welding Positioner Rotator",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757201/AK/QC/LN/106518927/welding-rotator-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757201/AK/QC/LN/106518927/welding-rotator-500x500.jpg",
+      "description": "Heavy-duty welding positioner rotator for precise component positioning."
+    },
+    {
+      "id": "g-74",
+      "title": "Welding Positioner Rotator",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757205/EQ/GQ/RS/106518927/welding-rotator-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/611757205/EQ/GQ/RS/106518927/welding-rotator-500x500.jpg",
+      "description": "Heavy-duty welding positioner rotator for precise component positioning."
+    },
+    {
+      "id": "g-75",
+      "title": "Axle Robotic Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609981769/YP/NW/GW/106518927/axle-robotic-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609981769/YP/NW/GW/106518927/axle-robotic-welding-machine-500x500.jpg",
+      "description": "Specialized robotic welding machine for axle fabrication."
+    },
+    {
+      "id": "g-76",
+      "title": "Axle Robotic Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609981771/FU/CC/ZW/106518927/axle-robotic-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609981771/FU/CC/ZW/106518927/axle-robotic-welding-machine-500x500.jpg",
+      "description": "Specialized robotic welding machine for axle fabrication."
+    },
+    {
+      "id": "g-77",
+      "title": "Axle Robotic Welding Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609981775/QY/ND/WH/106518927/axle-robotic-welding-machine-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609981775/QY/ND/WH/106518927/axle-robotic-welding-machine-500x500.jpg",
+      "description": "Specialized robotic welding machine for axle fabrication."
+    },
+    {
+      "id": "g-78",
+      "title": "Industrial Robotic Arm",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609991669/CC/XX/RK/106518927/download-2026-05-22t134004-676-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609991669/CC/XX/RK/106518927/download-2026-05-22t134004-676-500x500.jpg",
+      "description": "Multi-axis industrial robotic arm for welding and material handling."
+    },
+    {
+      "id": "g-79",
+      "title": "Industrial Robotic Arm",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609991673/YT/UM/IL/106518927/download-2026-05-22t134009-282-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609991673/YT/UM/IL/106518927/download-2026-05-22t134009-282-500x500.jpg",
+      "description": "Multi-axis industrial robotic arm for welding and material handling."
+    },
+    {
+      "id": "g-80",
+      "title": "Industrial Robotic Arm",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/609991676/PS/KL/XU/106518927/download-2026-05-22t134116-850-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/609991676/PS/KL/XU/106518927/download-2026-05-22t134116-850-500x500.jpg",
+      "description": "Multi-axis industrial robotic arm for welding and material handling."
+    },
+    {
+      "id": "g-81",
+      "title": "CNC Plasma Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157633/DV/OI/LC/106518927/download-2026-05-22t191508-967-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157633/DV/OI/LC/106518927/download-2026-05-22t191508-967-500x500.jpg",
+      "description": "High-precision CNC plasma cutting machine for metal fabrication."
+    },
+    {
+      "id": "g-82",
+      "title": "CNC Plasma Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157635/NM/SZ/NS/106518927/download-2026-05-22t191535-640-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157635/NM/SZ/NS/106518927/download-2026-05-22t191535-640-500x500.jpg",
+      "description": "High-precision CNC plasma cutting machine for metal fabrication."
+    },
+    {
+      "id": "g-83",
+      "title": "CNC Plasma Cutting Machine",
+      "category": "machines",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157636/RO/FJ/NS/106518927/download-2026-05-22t191541-743-1000x1000.jpg",
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2026/5/610157636/RO/FJ/NS/106518927/download-2026-05-22t191541-743-500x500.jpg",
+      "description": "High-precision CNC plasma cutting machine for metal fabrication."
+    }
+  ]
+}

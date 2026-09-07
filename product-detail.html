@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Pap Weld Core Automation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+</head>
+<body>
+    <header class="header" id="header">
+        <!-- Same header as other pages (copy from index.html) -->
+    </header>
+    <main class="container" style="padding-top:140px;padding-bottom:80px;">
+        <div id="product-detail">
+            <p>Loading product details...</p>
+        </div>
+    </main>
+    <script>
+        // Fetch product data and display
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id');
+        if (!id) {
+            document.getElementById('product-detail').innerHTML = '<p>Product not found.</p>';
+        } else {
+            fetch('data/products-data.json')
+                .then(r => r.json())
+                .then(data => {
+                    const product = data.products.find(p => p.id === id);
+                    if (!product) {
+                        document.getElementById('product-detail').innerHTML = '<p>Product not found.</p>';
+                        return;
+                    }
+                    // Render product details (similar to modal)
+                    let html = `<h1>${product.name}</h1>
+                                <img src="${product.image}" alt="${product.name}" style="max-width:400px;">
+                                <p>${product.description}</p>
+                                <h3>Specifications</h3><ul>`;
+                    if (product.specs) {
+                        product.specs.forEach(s => {
+                            html += `<li><strong>${s.label}:</strong> ${s.value}</li>`;
+                        });
+                    }
+                    html += `</ul>
+                             <a href="contact.html" class="btn btn-primary">Request a Quote</a>`;
+                    document.getElementById('product-detail').innerHTML = html;
+                })
+                .catch(() => {
+                    document.getElementById('product-detail').innerHTML = '<p>Error loading product.</p>';
+                });
+        }
+    </script>
+</body>
+</html>
